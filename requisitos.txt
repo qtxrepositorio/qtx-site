@@ -1,0 +1,14 @@
+Requisitos 
+
+Página SAC
+
+Email para recebimento: sac@qualitex.com.br
+
+Página Ouvidoria
+
+Email para recebimento: ouvidoria@qualitex.com.br
+
+Página Solicitar Proposta:
+
+class="active" na <a>
+*Apagar da início
