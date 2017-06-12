@@ -96,7 +96,7 @@ $Mailer->From = 'setorcomercial@qualitex.com.br';
 
 $Mailer->FromName = 'workflow';
 
-$Mailer->Subject = 'Wokflow - pedido on-line '. rand(0, 10000) . ' Cliente: ' . $nomeremetente;
+$Mailer->Subject = 'Pedido on-line '. rand(0, 10000) . ' ' . $nomeremetente;
 
 $Mailer->Body = utf8_decode($mensagemHTML);
 
