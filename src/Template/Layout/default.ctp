@@ -96,7 +96,10 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         <div class="container clearfix">
 
                             <br>
-                            <img src="http://qualitex.com.br/images/logo.png">
+                            <?php echo $this->Html->image("logo.png", [
+                                "alt" => "Brownies",
+                                'url' => ['controller' => 'Pages', 'action' => 'index']
+                            ]);?>
 
                             <!-- MENU -->
                             <div class="pull-right">

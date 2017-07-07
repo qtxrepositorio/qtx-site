@@ -16,7 +16,6 @@ class ContactsController extends AppController
 	use MailerAwareTrait;
 
     public function location(){}
-    public function workHere(){}
     public function phoneContacts(){}
     public function safisationSearch(){}
 
@@ -43,6 +42,19 @@ class ContactsController extends AppController
     				'ouvidoria@qualitex.com.br'
     			]);
     	}
+    }
+
+    public function workHere($id = null){
+
+        if ($this->request->is('post')) {
+
+            $this->getMailer('Contacts')->send('workHereMail', 
+                [
+                    $this->request->data,
+                    $this->request->data['email'],
+                    'desenvolvimento@qualitex.com.br'
+                ]);
+        }
     }
     
 }
