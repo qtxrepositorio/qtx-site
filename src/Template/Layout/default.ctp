@@ -13,7 +13,7 @@
 * @license       http://www.opensource.org/licenses/mit-license.php MIT License
 */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'Qualitex Engenharia e Serviços';
 ?>
 <!DOCTYPE html>
 <html>
@@ -89,7 +89,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <!-- HEADER -->
                 <header>
 
-
                     <!-- MENU BLOCK -->
                     <div class="menu_block">
 
@@ -152,9 +151,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                                                 <li>
                                                     <?php echo $this->Html->link(__('Contatos Telefônicos'), array('controller'=> 'Contacts','action' => 'phoneContacts'));?>
                                                 </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Pesquisa de satisfação'), array('controller'=> 'Contacts','action' => 'safisationSearch'));?>
-                                                </li>
+                                                <li><a href="http://goo.gl/forms/kXNpJ7Mkb8" target="_blank">Pesquisa de Satisfação</a>
                                                 <li>
                                                     <?php echo $this->Html->link(__('SAC'), array('controller'=> 'Contacts','action' => 'sac'));?>
                                                 </li>

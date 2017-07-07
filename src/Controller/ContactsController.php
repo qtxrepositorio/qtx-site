@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Mailer\MailerAwareTrait;
 
 /**
  * Contacts Controller
@@ -11,10 +12,37 @@ use App\Controller\AppController;
  */
 class ContactsController extends AppController
 {
+
+	use MailerAwareTrait;
+
     public function location(){}
     public function workHere(){}
     public function phoneContacts(){}
     public function safisationSearch(){}
-    public function sac(){}
-    public function ombudsman(){}
+
+    public function sac($id = null){
+
+    	if ($this->request->is('post')) {
+    		$this->getMailer('Contacts')->send('sacMail', 
+    			[
+    				$this->request->data,
+    				$this->request->data['email'],
+    				'sac@qualitex.com.br'
+    			]);
+    	}
+
+    }
+
+    public function ombudsman($id = null){
+
+    	if ($this->request->is('post')) {
+    		$this->getMailer('Contacts')->send('ombudsmanMail', 
+    			[
+    				$this->request->data,
+    				$this->request->data['email'],
+    				'ouvidoria@qualitex.com.br'
+    			]);
+    	}
+    }
+    
 }

@@ -1,49 +1,45 @@
-<?php ?>
-<html>
-    <head>
-        <?= $this->Html->charset() ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            <?= $cakeDescription ?>:
-            <?= $this->fetch('title') ?>
-        </title>
-        <?= $this->Html->meta('icon') ?>
+<section class="content">
 
-        <?= $this->Html->css('bootstrap.min.css') ?>
-        <?= $this->Html->css('flexslider.css') ?>
-        <?= $this->Html->css('prettyPhoto.css') ?>
-        <?= $this->Html->css('animate.css') ?>
-        <?= $this->Html->css('owl.carousel.css') ?>
-        <?= $this->Html->css('style.css') ?>
+    <div class="container">
 
-        <?= $this->Html->script('jquery.min.js') ?>
-        <?= $this->Html->script('bootstrap.min.js') ?>
-        <?= $this->Html->script('jquery.prettyPhoto.js') ?>
-        <?= $this->Html->script('jquery.nicescroll.min.js') ?>
-        <?= $this->Html->script('superfish.min.js') ?>
-        <?= $this->Html->script('jquery.flexslider-min.js') ?>
-        <?= $this->Html->script('owl.carousel.js') ?>
-        <?= $this->Html->script('animate.js') ?>
-        <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
-        <?= $this->Html->script('myscript.js') ?>
+        <br><br>
 
-        <?= $this->fetch('meta') ?>
-        <?= $this->fetch('css') ?>
-        <?= $this->fetch('script') ?>
+        <div class="col-md-6">
 
-        <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        </div>
 
-        
-    </head>
-    <body>
+        <div class="col-md-6">
 
-        <section class="content">
+            <div>
+                    
+                <?php $x = 0; ?>
+                <?= $this->Form->create($x) ?>
+                <fieldset>
+                    <?php
 
-        </section>
+                        echo $this->Form->input('name', ['required', 'label' => 'Nome: *', 'type' => 'text']);
 
-    </body>
+                        echo $this->Form->input('email', ['required', 'label'=>'Email: *', 'type' => 'text']);
+                    ?>
+                    <div class="col-md-6">
+                        <?php
 
-</html>
+                            echo $this->Form->input('phone', ['required', 'label' => 'Telefone: *', 'type' => 'text']);
+                        ?>
+                    </div>
+                    <?php
+                        echo $this->Form->input('considerations', ['required', 'label' => 'Sinta-se á vontade, informe-nos suas considerações: *', 'type' => 'textarea']); 
+
+                    ?>
+                </fieldset>
+
+                <?= $this->Form->button(__('Enviar'), ['class' => 'contact_btn']) ?>
+
+                <?= $this->Form->end() ?>
+
+            </div>
+
+        </div>
+
+</section>
 

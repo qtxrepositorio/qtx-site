@@ -189,6 +189,19 @@ return [
             'tls' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
+        'qtx' => [
+            'className' => 'Smtp',
+            // The following keys are used in SMTP transports
+            'host' => 'ssl://smtp.gmail.com',
+            'port' => 465,
+            'timeout' => 30,
+            'username' => 'workflow@qualitex.com.br',
+            'password' => 'Faraca@2015_QTX#',
+            'client' => null,
+            'tls' => null,
+            'ssl' => null,
+            'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
+        ]
     ],
 
     /**
@@ -207,6 +220,12 @@ return [
             //'charset' => 'utf-8',
             //'headerCharset' => 'utf-8',
         ],
+        'qtx' => [
+            'transport' => 'qtx',
+            //'from' => 'you@localhost',
+            //'charset' => 'utf-8',
+            //'headerCharset' => 'utf-8',
+        ]
     ],
 
     /**
