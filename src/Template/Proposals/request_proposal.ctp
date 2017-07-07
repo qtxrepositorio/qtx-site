@@ -1,48 +1,187 @@
-<?php ?>
-<html>
-    <head>
-        <?= $this->Html->charset() ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            <?= $cakeDescription ?>:
-            <?= $this->fetch('title') ?>
-        </title>
-        <?= $this->Html->meta('icon') ?>
+<section class="content">
 
-        <?= $this->Html->css('bootstrap.min.css') ?>
-        <?= $this->Html->css('flexslider.css') ?>
-        <?= $this->Html->css('prettyPhoto.css') ?>
-        <?= $this->Html->css('animate.css') ?>
-        <?= $this->Html->css('owl.carousel.css') ?>
-        <?= $this->Html->css('style.css') ?>
+    <div class="container">
 
-        <?= $this->Html->script('jquery.min.js') ?>
-        <?= $this->Html->script('bootstrap.min.js') ?>
-        <?= $this->Html->script('jquery.prettyPhoto.js') ?>
-        <?= $this->Html->script('jquery.nicescroll.min.js') ?>
-        <?= $this->Html->script('superfish.min.js') ?>
-        <?= $this->Html->script('jquery.flexslider-min.js') ?>
-        <?= $this->Html->script('owl.carousel.js') ?>
-        <?= $this->Html->script('animate.js') ?>
-        <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
-        <?= $this->Html->script('myscript.js') ?>
+        <br><br>
 
-        <?= $this->fetch('meta') ?>
-        <?= $this->fetch('css') ?>
-        <?= $this->fetch('script') ?>
+        <?php $x = 0; ?>
+        <?= $this->Form->create($x) ?>
 
-        <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <div class="row">
 
-    </head>
-    <body>
+            <div class="col-md-6">
 
-        <section class="content">
+                <div class="row">
 
-        </section>
+                    <div class="col-md-6">
+                        <?php 
+                    
+                            echo $this->Form->input('type_client', ['required','class' => 'div-select', 'label' => 'Tipo de cliente: *', 
+                                    'options' => 
+                                        [
+                                            'Física'=>'Física',
+                                            'Jurídica'=>'Jurídica'
+                                        ]
+                                    ]);
+                        
+                        ?>
+                    </div>
+                    <div class="col-md-6">
+                        <?php 
+                    
+                            echo $this->Form->input('cgc', ['required', 'label' => 'CGC: *', 'type' => 'text', 'placeholder'=>'Documento para identificação.']);
+                        
+                        ?>
+                    </div>
+                    
+                </div>    
 
-    </body>
+                <?php 
+                    
+                    echo $this->Form->input('name', ['required', 'label' => 'Nome ou Razão social: *', 'type' => 'text']);
 
-</html>
+                    echo $this->Form->input('responsible', ['required', 'label' => 'Nome do responsável: *', 'type' => 'text']);
+                    
+                    echo $this->Form->input('email', ['required', 'label' => 'Email: *', 'type' => 'text']);
 
+                ?>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <?php 
+                    
+                            echo $this->Form->input('landline', ['required','class' => 'div-select', 'label' => 'Telefone Fixo: *', 
+                                    'type' => 'text']);
+                        
+                        ?>
+                    </div>
+                    <div class="col-md-6">
+                        <?php 
+                    
+                            echo $this->Form->input('mobile_phone', ['required','class' => 'div-select', 'label' => 'Telefone Celular: *', 
+                                    'type' => 'text']);
+                        
+                        ?>
+                    </div>                    
+                    
+                </div> 
+
+                <?php 
+                    echo $this->Form->input('public_place', ['required','label' => 'Logradouro: *', 'type' => 'text']);
+                ?>
+
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <?php 
+                            echo $this->Form->input('number', ['required','class' => 'div-select', 'label' => 'Número: *', 
+                                    'type' => 'text']);
+                        ?>
+                    </div>
+                    <div class="col-md-9">
+                        <?php
+                            echo $this->Form->input('district', ['required','class' => 'div-select', 'label' => 'Bairro: *', 
+                                    'type' => 'text']);
+                        ?>
+                    </div>                    
+                    
+                </div> 
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <?php 
+                            echo $this->Form->input('city', ['required','class' => 'div-select', 'label' => 'Cidade: *', 
+                                    'type' => 'text']);
+                        ?>
+                    </div>
+                    <div class="col-md-6">
+                        <?php
+                            echo $this->Form->input('state', ['required','class' => 'div-select', 'label' => 'Estado: *', 
+                                    'type' => 'text']);
+                        ?>
+                    </div>                    
+                    
+                </div> 
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <?php 
+                            echo $this->Form->input('cep', ['required','class' => 'div-select', 'label' => 'CEP: *', 
+                                    'type' => 'text']);
+                        ?>
+                    </div>
+                    <div class="col-md-8">
+                        <?php
+                            echo $this->Form->input('reference_point', ['required','class' => 'div-select', 'label' => 'Ponto de referência: *', 
+                                    'type' => 'text']);
+                        ?>
+                    </div>                    
+                    
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <?php 
+                    
+                    echo $this->Form->input('do', ['required', 'label' => 'O que fazer? *', 'type' => 'text']);
+                    echo $this->Form->input('local', ['required', 'label' => 'Qual o local? *', 'type' => 'text']);
+                    echo $this->Form->input('period_frequency', ['required', 'label' => 'Quando/Frequência? *', 'type' => 'text']);
+                    echo $this->Form->input('quantity', ['required', 'label' => 'Quantidade? *', 'type' => 'text']);
+                    echo $this->Form->input('objective', ['required', 'label' => 'Objetivo? *', 'type' => 'text']);     
+                    echo $this->Form->input('objective_legal', ['required', 'label' => 'Algum objetivo legal? *', 'type' => 'text']);    
+                    echo $this->Form->input('consideration', ['required', 'label' => 'Mais alguma consideração? *', 'type' => 'text']);   
+
+                ?>
+                <br><br>
+                <?php 
+
+                    echo $this->Form->input('file', ['label' => 'Algum anexo para nos enviar?', 'type' => 'file']);
+
+                ?>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            
+            <div align="center">
+                <?= $this->Form->button(__('Enviar'), ['class' => 'contact_btn']) ?>
+            </div>
+
+        </div>
+       
+
+        <?= $this->Form->end() ?>
+    </div>
+
+</section>
+
+<style type="text/css">
+
+    .div-select {
+        width:100%;
+        margin:0 0 10px;
+        padding: 10px 8px;
+        text-transform:none;
+        font-family: 'Roboto', sans-serif;
+        font-weight:400;
+        line-height:20px;
+        font-size: 12px;
+        color: #333;
+        font-style:normal;
+        border-radius: 0;   
+        background: none;
+        border: 2px solid #242424;
+        box-shadow: none;
+        transition: border-color 0.3s ease-in-out; 
+        -webkit-transition: border-color 0.3s ease-in-out;
+    }
+
+
+</style>
