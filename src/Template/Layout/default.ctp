@@ -32,6 +32,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
         <?= $this->Html->css('animate.css') ?>
         <?= $this->Html->css('owl.carousel.css') ?>
         <?= $this->Html->css('style.css') ?>
+        <?= $this->Html->css('font-awesome/css/font-awesome.css') ?>
 
         <?= $this->Html->script('jquery.min.js') ?>
         <?= $this->Html->script('bootstrap.min.js') ?>
@@ -43,10 +44,6 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
         <?= $this->Html->script('animate.js') ?>
         <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
         <?= $this->Html->script('myscript.js') ?>
-
-        <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">   
 
         <script>
 
