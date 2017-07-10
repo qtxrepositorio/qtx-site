@@ -44,6 +44,10 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
         <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
         <?= $this->Html->script('myscript.js') ?>
 
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">   
+
         <script>
 
             //PrettyPhoto
@@ -81,30 +85,31 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
     </head>
     <body>
 
+        <?php 
+            echo $this->Html->image("preloader.gif", 
+                ["id" => "preloader"]
+            );
+        ?>
+
         <div class="preloader_hide">
 
-            <!-- PAGE -->
             <div id="page">
 
-                <!-- HEADER -->
                 <header>
 
-                    <!-- MENU BLOCK -->
                     <div class="menu_block">
 
-                        <!-- CONTAINER -->
                         <div class="container clearfix">
 
                             <br>
                             <?php echo $this->Html->image("logo.png", [
-                                "alt" => "Brownies",
-                                'url' => ['controller' => 'Pages', 'action' => 'index']
+                            "alt" => "Brownies",
+                            'url' => ['controller' => 'Pages', 'action' => 'index']
                             ]);?>
 
-                            <!-- MENU -->
                             <div class="pull-right">
                                 <nav class="navmenu center">
-                                    <ul><!-- first active  -->
+                                    <ul>
                                         <li class="scroll_btn">
                                             <?php echo $this->Html->link(__('Início'), array('controller'=> 'Pages','action' => '')); ?>
                                         </li>
@@ -168,17 +173,19 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                                         </li>
                                     </ul>
                                 </nav>
-                            </div><!-- //MENU -->
-                        </div><!-- //MENU BLOCK -->
-                    </div><!-- //CONTAINER -->
+                            </div>
+                        </div>
+                    </div>
                 </header>
             </div>
-        </div>
+        
 
+            <?= $this->Flash->render() ?>
 
-        <?= $this->Flash->render() ?>
-        <div>
-            <?= $this->fetch('content') ?>
+            <div>
+                <?= $this->fetch('content') ?>
+            </div>
+
         </div>
 
     </body>
