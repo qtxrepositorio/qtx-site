@@ -21,9 +21,7 @@
                 <?= $this->Form->create($x, ['type'=>'file','multiple'=>'multiple']) ?>
                 <fieldset>
                     <?php
-
                     echo $this->Form->input('name', ['required', 'label' => 'Nome: *', 'type' => 'text']);
-
                     echo $this->Form->input('email', ['required', 'label'=>'Email: *', 'type' => 'text']);
                     ?>
                     <div class="row">
@@ -51,7 +49,6 @@
                     <div class="row">
                         <div class="col-md-4">
                             <?php
-
                             echo $this->Form->input('phone', ['required', 'label' => 'Telefone: *', 'type' => 'text']);
                             ?>
                         </div>
@@ -60,7 +57,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <?php
-
                             echo $this->Form->input('area', ['id'=>'area','class' => 'div-select','required', 'label' => 'Area de atuação: *', 'options' => 
                                     [
                                     'Administrativo'=>'Administrativo',
@@ -68,12 +64,10 @@
                                     'Laboratório'=>'Laboratório'
                                     ]
                                 ]);
-
                             ?>
                         </div>
                         <div class="col-md-6">
                             <?php
-
                             echo $this->Form->input('vacancy', ['id'=>'vacancy','class' => 'div-select','required', 'label' => 'Vagas da area de atuação: *', 'options' => 
                             [
                             'Comercial'=>'Comercial',
@@ -89,7 +83,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <?php
-
                             echo $this->Form->input('pcd', ['class' => 'div-select','required', 'label' => 'PCD? *', 'options' => 
                             [
                             'Não'=>'Não',
@@ -102,7 +95,6 @@
                             <br>
                             
                             <?php
-
                             echo $this->Form->input('file', ['required', 'label' => 'Currículo: *', 'type' => 'file']);
                             ?>
 
@@ -125,19 +117,14 @@
 <script type="text/javascript">
     var select = document.getElementById('area');
     select.addEventListener('change', function () {
-
         var select2 = document.getElementById("vacancy");
-
         if (select.value == "Administrativo") {
-
             document.getElementById("vacancy").innerHTML =
                     '<option value="Comercial">Comercial</option>'
                     + '<option value="Financeiro">Financeiro</option>'
                     + '<option value="Recursos Humanos">Recursos Humanos</option>'
                     + '<option value="Tecnologia da informação">Tecnologia da informação</option>'
-
         } else if (select.value == "Operacional") {
-
             document.getElementById("vacancy").innerHTML =
                     +'<option value="Aux Mecanico">Aux Mecanico</option>'
                     + '<option value="Aux. Operacional">Aux. Operacional</option>'
@@ -160,22 +147,16 @@
                     + '<option value="Tec De Manutenção">Tec De Manutenção</option>'
                     + '<option value="Tec Meio Ambiente">Tec Meio Ambiente</option>'
                     + '<option value="Tec. Segurança do Trabalho">Tec. Segurança do Trabalho</option>'
-
         } else if (select.value == "Laboratório") {
-
             document.getElementById("vacancy").innerHTML =
                     '<option value="Técnico em Química">Técnico em Química</option>'
                     + '<option value="Químico">Químico</option>'
                     + '<option value="Aux. de Laboratório">Aux. de Laboratório</option>'
-
-
         }
-
     });
 </script>
 
 <style type="text/css">
-
     .div-select {
         width:100%;
         margin:0 0 10px;
@@ -194,6 +175,6 @@
         transition: border-color 0.3s ease-in-out; 
         -webkit-transition: border-color 0.3s ease-in-out;
     }
-
-
 </style>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
