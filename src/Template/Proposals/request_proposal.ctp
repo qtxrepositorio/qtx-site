@@ -3,9 +3,10 @@
 
     <div class="container">
 
-        <br>
+        <br><br>
 
         <h4>Solicitar Proposta Comercial:</h4>
+        <hr>
 
         <?php $x = 0; ?>
         <?= $this->Form->create($x, ['type'=>'file','multiple'=>'multiple']) ?>
@@ -168,6 +169,8 @@
     </div>
 
 </section>
+
+
 
 <style type="text/css">
 
