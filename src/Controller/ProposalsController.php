@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Mailer\MailerAwareTrait;
 
 /**
  * Proposals Controller
@@ -12,6 +13,19 @@ use App\Controller\AppController;
 class ProposalsController extends AppController
 {
 
-    public function requestProposal(){}
+    use MailerAwareTrait;
+
+    public function requestProposal(){
+
+    	if ($this->request->is('post')) {
+    		$this->getMailer('Proposals')->send('requestProposalMail', 
+    			[
+    				$this->request->data,
+    				$this->request->data['email'],
+    				'desenvolvimento@qualitex.com.br'
+    			]);
+    	}
+
+    }
     
 }

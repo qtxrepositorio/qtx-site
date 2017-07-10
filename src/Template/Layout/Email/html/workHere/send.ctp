@@ -1,4 +1,4 @@
- <h3>Novo currículo enviado via site qualitex.</h3>
+<h3>Novo currículo enviado via site qualitex.</h3>
 
 
 <p><b>Nome:</b><?= h($request['name']) ?></p>

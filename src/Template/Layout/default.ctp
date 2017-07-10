@@ -44,6 +44,10 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
         <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
         <?= $this->Html->script('myscript.js') ?>
 
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">   
+
         <script>
 
             //PrettyPhoto
@@ -75,36 +79,49 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 
         </script>
 
+        <style type="text/css">
+
+            .color {
+                background-color: #151515;
+            }
+
+            .font{
+                color: #FFFAFA;   
+            }
+
+        </style>
+
         <?= $this->fetch('meta') ?>
         <?= $this->fetch('css') ?>
         <?= $this->fetch('script') ?>
     </head>
     <body>
 
+        <?php 
+        echo $this->Html->image("preloader.gif", 
+        ["id" => "preloader"]
+        );
+        ?>
+
         <div class="preloader_hide">
 
-            <!-- PAGE -->
             <div id="page">
 
-                <!-- HEADER -->
                 <header>
 
-                    <!-- MENU BLOCK -->
                     <div class="menu_block">
 
-                        <!-- CONTAINER -->
                         <div class="container clearfix">
 
                             <br>
                             <?php echo $this->Html->image("logo.png", [
-                                "alt" => "Brownies",
-                                'url' => ['controller' => 'Pages', 'action' => 'index']
+                            "alt" => "Brownies",
+                            'url' => ['controller' => 'Pages', 'action' => 'index']
                             ]);?>
 
-                            <!-- MENU -->
                             <div class="pull-right">
                                 <nav class="navmenu center">
-                                    <ul><!-- first active  -->
+                                    <ul>
                                         <li class="scroll_btn">
                                             <?php echo $this->Html->link(__('Início'), array('controller'=> 'Pages','action' => '')); ?>
                                         </li>
@@ -163,23 +180,106 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="scroll_btn"">
+                                        <li class="scroll_btn">
                                             <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'Proposals','action' =>'requestProposal'));?>
                                         </li>
                                     </ul>
                                 </nav>
-                            </div><!-- //MENU -->
-                        </div><!-- //MENU BLOCK -->
-                    </div><!-- //CONTAINER -->
+                            </div>
+                        </div>
+                    </div>
                 </header>
+
+                <?= $this->Flash->render() ?>
+                <div>
+                    <?= $this->fetch('content') ?>
+                </div>
+
             </div>
+
         </div>
 
+        <section id="contacts">
+        </section>
 
-        <?= $this->Flash->render() ?>
-        <div>
-            <?= $this->fetch('content') ?>
-        </div>
+        <section class="color">
 
-    </body>
+            <br>
+
+            <!-- CONTAINER -->
+        <div class="container">
+            
+            <!-- ROW -->
+            <div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+                    <h4 class="font">Mais sobre a <b> Qualitex <b></h4>
+                    <div class="recent_posts_small clearfix">
+                        <div class="post_item_content_small">
+                            <?php echo $this->Html->link(__('Um pouco sobre a qualitex'), array('controller'=> 'Who','action' => 'about')); ?>
+                        </div>
+                    </div>
+                    <div class="recent_posts_small clearfix">
+                        <div class="post_item_content_small">
+                            <?php echo $this->Html->link(__('Nossos telefones'), array('controller'=> 'Contacts','action' => 'phone-contacts')); ?>
+                        </div>
+                    </div>
+                    <div class="recent_posts_small clearfix">
+                        <div class="post_item_content_small">
+                            <?php echo $this->Html->link(__('Alguns documentos'), array('controller'=> 'Who','action' => 'documents')); ?>
+                        </div>
+                    </div>
+                    <div class="recent_posts_small clearfix">
+                        <div class="post_item_content_small">
+                            <?php echo $this->Html->link(__('Diretrizes de conduta'), array('controller'=> 'Who','action' => 'guidelinesAndConduct')); ?>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+                    <h4 class="font"><b>Qualitex</b> nas redes</h4>
+                    <p>Com o intuito de ficar cada vez mais perto de você, a Qualitex também está nas redes sociais.</p>
+                    <ul class="social">
+                        <li><a href="http://www.instagram.com/qualitex_qtx" ><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/QUALITEX/" ><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/u/0/101749383972960088051/about" ><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.google.com.br/maps/place/Qualitex/@-9.672027,-35.8324737,17z/data=!3m1!4b1!4m5!3m4!1s0x70152bfffffffff:0xb0cd13cfbaac4b48!8m2!3d-9.672027!4d-35.830285" ><i class="map_show fa fa-map-marker"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="respond_clear"></div>
+                
+                <div class="col-lg-4 col-md-4 padbot30">
+                    <h4 class="font">Solicite uma <b>Proposta</b> comercial:</h4>
+
+                    <p>Para maior agilidade, disponibilizamos a possibilidade do nosso cliente solicitar propostas comercias através do nosso site.</p>
+                    
+                    <!-- CONTACT FORM -->
+                    <div class="span9 contact_form">
+                        <div id="note"></div>
+                        <div id="fields">
+                            <?php $x=0; ?>
+                            <?= $this->Form->create($x, ['url' => ['controller' => 'Proposals', 'action' => 'requestProposal']]) ?>
+                                <div align="center">
+                                    <?= $this->Form->button(__('Solicitar'), ['class' => 'contact_btn']) ?>
+                                </div>
+                            <?= $this->Form->end() ?>
+                            
+                        </div>
+                    </div><!-- //CONTACT FORM -->
+                </div>
+            </div><!-- //ROW -->
+            <div class="row copyright">
+                <div class="col-lg-12 text-center">
+                
+                 <p>Feito com <i class="fa fa-heart"></i>, <a href="javascript:void(0);" >Setor TI Qualitex.</a></p>
+                </div>
+            
+            </div><!-- //ROW -->
+        </div><!-- //CONTAINER -->
+
+        </section>
+
+    </body>    
+
 </html>

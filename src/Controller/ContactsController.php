@@ -17,6 +17,7 @@ class ContactsController extends AppController
 
     public function location(){}
     public function phoneContacts(){}
+    
     public function safisationSearch(){}
 
     public function sac($id = null){
