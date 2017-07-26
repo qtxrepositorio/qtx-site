@@ -23108,3 +23108,155 @@ Stack Trace:
 #13 {main}
 
 
+2017-07-26 13:55:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/Qualitex1.jpg
+Referer URL: http://localhost:8080/qtx-site/who/about
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\qtx-site\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-07-26 13:56:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/Qualitex1.jpg
+Referer URL: http://localhost:8080/qtx-site/who/about
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\qtx-site\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-07-26 14:14:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/qualitexFrente.png
+Referer URL: http://localhost:8080/qtx-site/who/about
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\qtx-site\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-07-26 14:14:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/qualitexFrente.jpeg
+Referer URL: http://localhost:8080/qtx-site/who/about
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\qtx-site\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-07-26 16:38:17 Error: [ParseError] syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\qtx-site\src\Template\Who\about.ctp on line 69
+Request URL: /who/about
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\View\View.php(986): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\View\View.php(610): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\WhoController))
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\qtx-site\webroot\index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-07-26 16:38:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/qtx/qualitexFrente.png
+Referer URL: http://localhost:8080/qtx-site/who/about
+Stack Trace:
+#0 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\qtx-site\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\qtx-site\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+

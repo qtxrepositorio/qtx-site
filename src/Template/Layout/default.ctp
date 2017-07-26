@@ -58,7 +58,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     hoverEffect: true, // default true
                     // set the path to BnWWorker.js for a superfast implementation
                     webworkerPath: false,
-                    // for the images with a fluid width and height 
+                    // for the images with a fluid width and height
                     responsive: true,
                     // to invert the hover effect
                     invertHoverEffect: false,
@@ -83,7 +83,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
             }
 
             .font{
-                color: #FFFAFA;   
+                color: #FFFAFA;
             }
 
         </style>
@@ -94,8 +94,8 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
     </head>
     <body>
 
-        <?php 
-        echo $this->Html->image("preloader.gif", 
+        <?php
+        echo $this->Html->image("preloader.gif",
         ["id" => "preloader"]
         );
         ?>
@@ -205,10 +205,10 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 
             <!-- CONTAINER -->
         <div class="container">
-            
+
             <!-- ROW -->
             <div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-                
+
                 <div class="col-lg-4 col-md-4 col-sm-6 padbot30">
                     <h4 class="font">Mais sobre a <b> Qualitex <b></h4>
                     <div class="recent_posts_small clearfix">
@@ -232,7 +232,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
                     <h4 class="font"><b>Qualitex</b> nas redes</h4>
                     <p>Com o intuito de ficar cada vez mais perto de você, a Qualitex também está nas redes sociais.</p>
@@ -243,14 +243,14 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         <li><a href="https://www.google.com.br/maps/place/Qualitex/@-9.672027,-35.8324737,17z/data=!3m1!4b1!4m5!3m4!1s0x70152bfffffffff:0xb0cd13cfbaac4b48!8m2!3d-9.672027!4d-35.830285" ><i class="map_show fa fa-map-marker"></i></a></li>
                     </ul>
                 </div>
-                
+
                 <div class="respond_clear"></div>
-                
+
                 <div class="col-lg-4 col-md-4 padbot30">
                     <h4 class="font">Solicite uma <b>Proposta</b> comercial:</h4>
 
                     <p>Para maior agilidade, disponibilizamos a possibilidade do nosso cliente solicitar propostas comercias através do nosso site.</p>
-                    
+
                     <!-- CONTACT FORM -->
                     <div class="span9 contact_form">
                         <div id="note"></div>
@@ -261,22 +261,22 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                                     <?= $this->Form->button(__('Solicitar'), ['class' => 'contact_btn']) ?>
                                 </div>
                             <?= $this->Form->end() ?>
-                            
+
                         </div>
                     </div><!-- //CONTACT FORM -->
                 </div>
             </div><!-- //ROW -->
             <div class="row copyright">
                 <div class="col-lg-12 text-center">
-                
+
                  <p>Feito com <i class="fa fa-heart"></i>, <a href="javascript:void(0);" >Setor TI Qualitex.</a></p>
                 </div>
-            
+
             </div><!-- //ROW -->
         </div><!-- //CONTAINER -->
 
         </section>
 
-    </body>    
+    </body>
 
 </html>
