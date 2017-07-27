@@ -176,5 +176,3 @@
         -webkit-transition: border-color 0.3s ease-in-out;
     }
 </style>
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
