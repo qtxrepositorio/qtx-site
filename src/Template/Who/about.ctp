@@ -21,6 +21,7 @@
             </p>
         </div>
 
+        <br><br><br>
         <div class="single_blog_post_content">
             <p class="margbot20"><b>Missão</b></p>
             <hr>
@@ -32,6 +33,7 @@
             </p>
         </div>
 
+        <br><br><br>
         <div class="single_blog_post_content">
             <p class="margbot20"><b>Visão</b></p>
             <hr>
@@ -41,6 +43,7 @@
             </p>
         </div>
 
+        <br><br><br>
         <div class="single_blog_post_content">
             <p class="margbot20"><b>Valores</b></p>
             <hr>
@@ -52,6 +55,7 @@
             </p>
         </div>
 
+        <br><br><br>
         <div class="single_blog_post_content">
             <p class="margbot20"><b>Princípios Organizacionais</b></p>
             <hr>
@@ -63,12 +67,13 @@
             <p ><i class="fa fa-check"></i> Melhoria Contínua: Aprimorar continuamente os conhecimentos, processos e práticas da organização.</p>
 
         </div>
+        <br><br><br>
 
     </div>
 
     <div class="col-md-6">
 
-        <?php echo $this->Html->image("qtx/qualitexFrente.jpg"); ?>
+        <?php echo $this->Html->image("Qualitex1.JPG"); ?>
 
         <br><br><br>
 

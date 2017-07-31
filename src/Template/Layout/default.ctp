@@ -117,7 +117,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-logo"><a href="#"><?= $this->Html->image('logop.png'); ?></a></div>
+            <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
             <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
             <div class="credits">
                 <!--
@@ -210,15 +210,15 @@ $(window).load(function(){
 
     }).smartresize(); // trigger resize to set container width
     $('.portfolioFilter a').click(function(){
+
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
-
         var selector = $(this).attr('data-filter');
         $container.isotope({
-
             filter: selector,
         });
         return false;
+
     });
 
 });

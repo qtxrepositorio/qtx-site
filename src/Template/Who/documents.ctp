@@ -15,19 +15,19 @@
 
                     <ul>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/CNPJ e Contrato Social/CNPJ - Matriz - AL_23.02.15.pdf"><i class="fa fa-download"></i>  CNPJ Qualitex Matriz Alagoas</a>
+                            <a download href="../documentos_institucionais/CNPJ e Contrato Social/CNPJ - Matriz - AL_23.02.15.pdf"><i class="fa fa-download"></i>  CNPJ Qualitex Matriz Alagoas</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/CNPJ e Contrato Social/CNPJ-Filial-PE.pdf"><i class="fa fa-download"></i> CNPJ Qualitex Filial Pernambuco</a>
+                            <a download href="../documentos_institucionais/CNPJ e Contrato Social/CNPJ-Filial-PE.pdf"><i class="fa fa-download"></i> CNPJ Qualitex Filial Pernambuco</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/CNPJ e Contrato Social/CNPJ-Filial-RN.pdf"><i class="fa fa-download"></i> CNPJ Qualitex Filial Rio Grando do Norte</a>
+                            <a download href="../documentos_institucionais/CNPJ e Contrato Social/CNPJ-Filial-RN.pdf"><i class="fa fa-download"></i> CNPJ Qualitex Filial Rio Grando do Norte</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/1-FICHA_RESUMO_EMPRESARIAL_QUALITEX-Abr2016.pdf"><i class="fa fa-download"></i> Dados Cadastrais</a>
+                            <a download href="../documentos_institucionais/1-FICHA_RESUMO_EMPRESARIAL_QUALITEX-Abr2016.pdf"><i class="fa fa-download"></i> Dados Cadastrais</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Dados Bancarios.pdf"><i class="fa fa-download"></i> Dados Bancários</a>
+                            <a download href="../documentos_institucionais/Dados Bancarios.pdf"><i class="fa fa-download"></i> Dados Bancários</a>
                         </li>
                     </ul>
                 </div>
@@ -40,22 +40,22 @@
 
                     <ul>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Certificações da Qualidade/Certificado -ISO-9001-2008.pdf"><i class="fa fa-download"></i> Certificado ISO 9001</a>
+                            <a download href="../documentos_institucionais/Certificações da Qualidade/Certificado -ISO-9001-2008.pdf"><i class="fa fa-download"></i> Certificado ISO 9001</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Certificações da Qualidade/Certificado-ISO-14001-2004.pdf"><i class="fa fa-download"></i> Certificado ISO 14001</a>
+                            <a download href="../documentos_institucionais/Certificações da Qualidade/Certificado-ISO-14001-2004.pdf"><i class="fa fa-download"></i> Certificado ISO 14001</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Certificações da Qualidade/Certificado-INMETRO.pdf"><i class="fa fa-download"></i> Certificado INMETRO - ISO/IEC 17025</a>
+                            <a download href="../documentos_institucionais/Certificações da Qualidade/Certificado-INMETRO.pdf"><i class="fa fa-download"></i> Certificado INMETRO - ISO/IEC 17025</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Certificações da Qualidade/Escopo-CRL0236.pdf"><i class="fa fa-download"></i> Escopo de Acreditação - ISO/IEC 17025 </a>
+                            <a download href="../documentos_institucionais/Certificações da Qualidade/Escopo-CRL0236.pdf"><i class="fa fa-download"></i> Escopo de Acreditação - ISO/IEC 17025 </a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Certificações da Qualidade/DRS_Registro Simplificado_Petrobras_25fev2017.pdf"><i class="fa fa-download"></i> DRS - Registro Simplificado Petrobras </a>
+                            <a download href="../documentos_institucionais/Certificações da Qualidade/DRS_Registro Simplificado_Petrobras_25fev2017.pdf"><i class="fa fa-download"></i> DRS - Registro Simplificado Petrobras </a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Certificações da Qualidade/CRCC_Petrobras_25fev2017.pdf"><i class="fa fa-download"></i> CRCC - Petrobras </a>
+                            <a download href="../documentos_institucionais/Certificações da Qualidade/CRCC_Petrobras_25fev2017.pdf"><i class="fa fa-download"></i> CRCC - Petrobras </a>
                         </li>
                     </ul>
                 </div>
@@ -68,39 +68,36 @@
 
                     <ul>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/AFE-ANVISA-AL-segregação-coleta-acondicionameno.pdf"><i class="fa fa-download"></i> AFE ANVISA AL</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/AFE-ANVISA-AL-segregação-coleta-acondicionameno.pdf"><i class="fa fa-download"></i> AFE ANVISA AL</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/Alvará-Licença-Sanitária.pdf"><i class="fa fa-download"></i> Alvará de Licença Sanitária</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/Alvará-Licença-Sanitária.pdf"><i class="fa fa-download"></i> Alvará de Licença Sanitária</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/Alvará-Municipal.pdf"><i class="fa fa-download"></i> Alvará de Licença Municipal</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/Alvará-Municipal.pdf"><i class="fa fa-download"></i> Alvará de Licença Municipal</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/CERTIFICADO-ONIP.pdf"><i class="fa fa-download"></i> CERTIFICADO ONIP</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/CERTIFICADO-ONIP.pdf"><i class="fa fa-download"></i> CERTIFICADO ONIP</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/CRQ-Quimica.jpg"><i class="fa fa-download"></i> CRQ Química</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/CRQ-Quimica.jpg"><i class="fa fa-download"></i> CRQ Química</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/IBAMA-CadastroTécnico.pdf"><i class="fa fa-download"></i> IBAMA - Cadastro Técnico</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/IBAMA-CadastroTécnico.pdf"><i class="fa fa-download"></i> IBAMA - Cadastro Técnico</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/Inscrição-Estadual-AL-unificada.pdf"><i class="fa fa-download"></i> Inscrição Estadual Unificada</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/Inscrição-Estadual-AL-unificada.pdf"><i class="fa fa-download"></i> Inscrição Estadual Unificada</a>
                         </li>
                         <li>
-                            <a target="_blank" href="../docsInstitucionais/Alvarás e Licenças/LO-QUALITEX-AL.pdf"><i class="fa fa-download"></i> Licença de Operação QUALITEX</a>
+                            <a download href="../documentos_institucionais/Alvarás e Licenças/LO-QUALITEX-AL.pdf"><i class="fa fa-download"></i> Licença de Operação QUALITEX</a>
                         </li>
                     </ul>
                 </div>
             </div>
-
-
-
         </div>
+
+        <br><br><br>
+        <br><br><br>
+
     </div>
-
-
-    <br>
-
 </div>
