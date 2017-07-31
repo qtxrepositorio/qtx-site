@@ -58,25 +58,57 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
         </header>
     <?php endif; ?>
 
-    <nav class="main-nav-outer" id="test"><!--main-nav-start-->
-    	<div class="container">
-            <ul class="main-nav">
-            	<li>
-                    <a href="#service">Quem somos</a>
-                    <?php echo $this->Html->link(__('a'), array('controller'=> 'Pages','action' => 'home#service')); ?>
-                </li>
-                <li><a href="#Portfolio">Áreas de atução</a></li>
-                <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
-                <li><a href="#client">Contato</a></li>
-                <li>
-                    <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'Who','action' => 'about')); ?>
-                </li>
+    <?php if ($this->request->params['controller'] == 'Pages' && $this->request->params['action'] == 'display'){ ?>
+        <nav class="main-nav-outer" id="test">
+        	<div class="container">
+                <ul class="main-nav">
+                	<li>
+                        <a href="#service">Quem somos</a>
+                    </li>
+                    <li><a href="#Portfolio">Áreas de atução</a></li>
+                    <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
+                    <li><a href="#client">Contato</a></li>
+                    <li>
+                        <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                    </li>
 
 
-            </ul>
-            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-        </div>
-    </nav><!--main-nav-end-->
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
+    <?php }else{ ?>
+        <nav class="main-nav-outer" id="test">
+            <div class="container">
+                <ul class="main-nav">
+                    <li>
+                        <?php echo $this->Html->link(__('Quem somos'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Áreas de atução'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                    </li>
+                    <li class="small-logo">
+                        <?php
+                            echo $this->Html->image("logo3.png",
+                                array('url' =>
+                                    array('controller' => 'Pages', 'action' => 'home')
+                                    )
+                                );
+                        ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                    </li>
+
+
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
+    <?php } ?>
 
     <?= $this->Flash->render() ?>
     <div>
