@@ -3,7 +3,6 @@
 
     <br><br>
 
-
     <div class="row-fluid blog">
         <div class="span8">
             <article class="blog-post">
@@ -41,6 +40,7 @@
                                     <i class="fa fa-check"></i>
                                     Não envolve e não apoia a utilização de trabalho forçado, ou seja, os Componentes não poderão ter seus documentos retidos ou ser obrigados a fazer depósitos como condição para serem admitidos.
                                 </p>
+                                <br>
                                 <p>
                                     <b>Compromissos dos Componentes</b>
                                 </p>
@@ -103,6 +103,7 @@
                                     <i class="fa fa-check"></i>
                                     Atender aos requsitos do cliente, assim como  aos requistos estatutários e regulamentares, colaborar e garantir que todos os componentes estejam cientes a importância dessa diretriz.
                                 </p>
+                                <br>
                                 <p>
                                     <b>Compromissos dos Componentes do quadro de pessoal</b>
                                 </p>
@@ -144,6 +145,7 @@
                                     <i class="fa fa-check"></i>
                                     Levar em consideração não apenas os indicadores econômicos - financeiros, condições comerciais e qualidade dos produtos ou serviços oferecidos, mais também o seu comportamento ético e socialmente responsável para selecionar e manter fornecedores.
                                 </p>
+                                <br>
                                 <p>
                                     <b>Compromissos dos Fornecedores e Parceiros</b>
                                 </p>
@@ -178,6 +180,7 @@
                                     <i class="fa fa-check"></i>
                                     Desenvolver e participar de programas de abrangência social, através de instituições públicas e comunitárias, organizações não-governamentais, escolas, postos de saúde, entre outros.
                                 </p>
+                                <br>
                                 <p>
                                     <b>Compromissos dos Componentes</b>
                                 </p>
@@ -193,5 +196,7 @@
             </div>
         </div>
     </div>
+
+    <br><br><br><br><br><br><br><br>
 
 </div>

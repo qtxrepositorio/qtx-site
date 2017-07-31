@@ -67,7 +67,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     </li>
                     <li><a href="#Portfolio">Áreas de atução</a></li>
                     <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
-                    <li><a href="#client">Contato</a></li>
+                    <li><a href="#contact">Contato</a></li>
                     <li>
                         <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
                     </li>
@@ -97,7 +97,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home#contact')); ?>
                     </li>
                     <li>
                         <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
@@ -117,7 +117,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-logo"><a href="#"><?= $this->Html->image('logop.png'); ?></a></div>
+            <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
             <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
             <div class="credits">
                 <!--
@@ -210,15 +210,15 @@ $(window).load(function(){
 
     }).smartresize(); // trigger resize to set container width
     $('.portfolioFilter a').click(function(){
+
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
-
         var selector = $(this).attr('data-filter');
         $container.isotope({
-
             filter: selector,
         });
         return false;
+
     });
 
 });

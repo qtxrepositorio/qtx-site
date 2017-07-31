@@ -5,12 +5,13 @@
     <div class="col-md-7">
 
         <h4 class="classic-title">
-            <span>Sistema de Gestão Integrada</span>
+            <span><b>Sistema de Gestão Integrada</b></span>
         </h4>
+        <br>
 
         <p>
             Norteada pela
-            <a target="_blank" href="../docsInstitucionais/Política integrada.pdf">
+            <a href="../webroot/documentos_institucionais/Política integrada.pdf" download>
                 Política Integrada</a> – Qualidade, Segurança,
                 Saúde e Meio Ambiente – a empresa demonstra a firmeza dos
                 seus propósitos através das diretrizes emanadas da Alta
@@ -27,9 +28,11 @@
             <p align="center">
                 QUALIDADE – SEGURANÇA - PRODUTIVIDADE - MEIO AMBIENTE
             </p>
+            <br>
             <h4 class="classic-title">
-                <span> ISO 9001</span>
+                <span><b>ISO 9001</b></span>
             </h4>
+            <br>
             <p>
                 Visando demonstrar a competência em fornecer produtos e serviços que atendam às
                 necessidades e as expectativas de seus clientes, e que estão em conformidade com
@@ -41,20 +44,22 @@
             </p>
             <p>
                 <b>Escopo Certificado:</b>
-                <i>
-                    Análises Físico-Químicas, Microbiológicas, Caracterização De Resíduo, Monitoramento
-                    Ambiental de Emissões Gasosas, Qualidade do Ar Ambiental e Climatizado, Medições para
-                    Suporte em Higiene Ocupacional e Transporte de Produtos e Resíduos Perigosos e Não
-                    Perigosos.
-                </i>
+
+                Análises Físico-Químicas, Microbiológicas, Caracterização De Resíduo, Monitoramento
+                Ambiental de Emissões Gasosas, Qualidade do Ar Ambiental e Climatizado, Medições para
+                Suporte em Higiene Ocupacional e Transporte de Produtos e Resíduos Perigosos e Não
+                Perigosos.
+
             </p>
+            <br>
             <h4 class="classic-title">
-                <span>ISO/IEC 17025</span>
+                <span><b>ISO/IEC 17025</b></span>
             </h4>
+            <br>
             <p>
                 O Laboratório Qualitex, baseado na NBR ISO/IEC 17025 e destacando-se como
-                sendo o primeiro laboratório do Estado de Alagoas ACREDITADO pelo CGCRE/INMETRO – conforme escopo
-                <a href="http://www.inmetro.gov.br/laboratorios/rble/docs/CRL0236.pdf" target="_blank">http://www.inmetro.gov.br/laboratorios/rble/docs/CRL0236.pdf</a>
+                sendo o primeiro laboratório do Estado de Alagoas ACREDITADO pelo CGCRE/INMETRO – 
+                <a href="http://www.inmetro.gov.br/laboratorios/rble/docs/CRL0236.pdf" target="_blank">conforme escopo</a>
                 – estabelece e mantém um sistema de controle da qualidade em seus serviços de ensaios
                 e amostragens, abrangendo programação de calibração para todos os equipamentos,
                 com participação em programas interlaboratoriais coordenados por Órgãos
@@ -63,9 +68,11 @@
                 sistema em conformidade e assim ter sua competência reconhecida nos serviços de
                 laboratórios de ensaios e calibração.
             </p>
+            <br>
             <h4 class="classic-title">
-                <span>ISO 14001</span>
+                <span><b>ISO 14001</b></span>
             </h4>
+            <br>
             <p>
                 Com a finalidade de estabelecer regras, reduzir desperdícios, quantidade de
                 matéria-prima, de água, de energia e de resíduos usados e obtidos durante o
@@ -78,12 +85,12 @@
             </p>
             <p>
                 <b>Escopo Certificado:</b>
-                <i>
+
                     Análises Físico-Químicas, Microbiológicas, Caracterização De Resíduo,
                     Monitoramento Ambiental de Emissões Gasosas, Qualidade do Ar Ambiental e
                     Climatizado, Medições para Suporte em Higiene Ocupacional e Transporte de
                     Produtos e Resíduos Perigosos e Não Perigosos.
-                </i>
+
             </p>
         </p>
     </div>
@@ -97,12 +104,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="item active">
-                    <img alt="Carousel Bootstrap First" src="../webroot/images/BV_Certification_ISO.png" />
-
+                    <?php echo $this->Html->image("BV_Certification_ISO.png"); ?>
                 </div>
                 <div class="item">
-                    <img alt="Carousel Bootstrap Second" src="../webroot/images/iso17025__16108_zoom.jpg" />
-
+                    <?php echo $this->Html->image("iso17025__16108_zoom.jpg"); ?>
                 </div>
 
             </div>
@@ -111,7 +116,7 @@
 
             </a>
             <a class="right carousel-control" href="#carousel-134013" data-slide="next">
-                
+
             </a>
 
         </div>
@@ -137,6 +142,11 @@
             </ul>
         </div>
 
+
     </div>
 
+
+
 </div>
+
+<br><br><br><br><br><br>
