@@ -67,7 +67,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     </li>
                     <li><a href="#Portfolio">Áreas de atução</a></li>
                     <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
-                    <li><a href="#client">Contato</a></li>
+                    <li><a href="#contact">Contato</a></li>
                     <li>
                         <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
                     </li>
@@ -97,7 +97,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home#contact')); ?>
                     </li>
                     <li>
                         <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
