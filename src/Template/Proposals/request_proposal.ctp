@@ -18,29 +18,28 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <?php 
+                        <?php
 
-                        echo $this->Form->input('type_client', ['required','class' => 'div-select', 'label' => 'Tipo de cliente: *', 
-                        'options' => 
-                        [
-                        'Física'=>'Física',
-                        'Jurídica'=>'Jurídica'
-                        ]
-                        ]);
+                            echo $this->Form->input('type_client', ['required', 'label' => 'Tipo de cliente: *',
+                            'options' => [
+                                    'Física'=>'Física',
+                                    'Jurídica'=>'Jurídica'
+                                ]
+                            ]);
 
                         ?>
                     </div>
                     <div class="col-md-6">
-                        <?php 
+                        <?php
 
                         echo $this->Form->input('cgc', ['required', 'label' => 'CGC: *', 'type' => 'text', 'placeholder'=>'Documento para identificação.']);
 
                         ?>
                     </div>
 
-                </div>    
+                </div>
 
-                <?php 
+                <?php
 
                 echo $this->Form->input('name', ['required', 'label' => 'Nome ou Razão social: *', 'type' => 'text']);
 
@@ -53,80 +52,87 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <?php 
+                        <?php
 
-                        echo $this->Form->input('landline', ['required','class' => 'div-select', 'label' => 'Telefone Fixo: *', 
+                        echo $this->Form->input('landline', ['required', 'label' => 'Telefone Fixo: *',
                         'type' => 'text']);
 
                         ?>
                     </div>
                     <div class="col-md-6">
-                        <?php 
+                        <?php
 
-                        echo $this->Form->input('mobile_phone', ['required','class' => 'div-select', 'label' => 'Telefone Celular: *', 
+                        echo $this->Form->input('mobile_phone', ['required', 'label' => 'Telefone Celular: *',
                         'type' => 'text']);
 
                         ?>
-                    </div>                    
+                    </div>
 
-                </div> 
+                </div>
 
-                <?php 
+                <?php
                 echo $this->Form->input('public_place', ['required','label' => 'Logradouro: *', 'type' => 'text']);
                 ?>
 
                 <div class="row">
 
                     <div class="col-md-3">
-                        <?php 
-                        echo $this->Form->input('number', ['required','class' => 'div-select', 'label' => 'Número: *', 
+                        <?php
+                        echo $this->Form->input('number', ['required', 'label' => 'Número: *',
                         'type' => 'text']);
                         ?>
                     </div>
                     <div class="col-md-9">
                         <?php
-                        echo $this->Form->input('district', ['required','class' => 'div-select', 'label' => 'Bairro: *', 
+                        echo $this->Form->input('district', ['required', 'label' => 'Bairro: *',
                         'type' => 'text']);
                         ?>
-                    </div>                    
+                    </div>
 
-                </div> 
+                </div>
 
                 <div class="row">
 
                     <div class="col-md-6">
-                        <?php 
-                        echo $this->Form->input('city', ['required','class' => 'div-select', 'label' => 'Cidade: *', 
+                        <?php
+                        echo $this->Form->input('city', ['required', 'label' => 'Cidade: *',
                         'type' => 'text']);
                         ?>
                     </div>
                     <div class="col-md-6">
                         <?php
-                        echo $this->Form->input('state', ['class' => 'div-select','label'=>'Estado: *','options' => ['AC'=>'Acre','AL'=>'Alagoas','AP'=>'Amapá','AM'=>'Amazonas','BA'=>'Bahia','CE'=>'Ceará','DF'=>'Destrito Federal','ES'=>'Espirito Santo','GO'=>'Goiás','MA'=>'Maranhão','MT'=>'Mato Grosso','MS'=>'Mato Grosso do sul'
-                        ,'MG'=>'Minas Gerais','PA'=>'Pará','PB'=>'Paraíba'
-                        ,'PR'=>'Paraná','PE'=>'Pernambuco','PI'=>'Piauí'
-                        ,'RJ'=>'Rio de Janeiro','RN'=>'Rio Grande do Norte','RS'=>'Rio Grando do Sul'
-                        ,'RO'=>'Rondônia','RR'=>'Roraima','SC'=>'Santa Catarina'
-                        ,'SP'=>'São Paulo','SE'=>'Sergipe','TO'=>'Tocantins']]);
+                            echo $this->Form->input('state', ['label'=>'Estado: *',
+                                'options' => [
+                                    'AC'=>'Acre','AL'=>'Alagoas','AP'=>'Amapá','AM'=>'Amazonas'
+                                    ,'BA'=>'Bahia','CE'=>'Ceará','DF'=>'Destrito Federal'
+                                    ,'ES'=>'Espirito Santo','GO'=>'Goiás','MA'=>'Maranhão'
+                                    ,'MT'=>'Mato Grosso','MS'=>'Mato Grosso do sul'
+                                    ,'MG'=>'Minas Gerais','PA'=>'Pará','PB'=>'Paraíba'
+                                    ,'PR'=>'Paraná','PE'=>'Pernambuco','PI'=>'Piauí'
+                                    ,'RJ'=>'Rio de Janeiro','RN'=>'Rio Grande do Norte'
+                                    ,'RS'=>'Rio Grando do Sul','RO'=>'Rondônia','RR'=>'Roraima'
+                                    ,'SC'=>'Santa Catarina','SP'=>'São Paulo','SE'=>'Sergipe','TO'=>'Tocantins'
+                                ]
+                            ]);
                         ?>
-                    </div>                    
+                    </div>
 
-                </div> 
+                </div>
 
                 <div class="row">
 
                     <div class="col-md-4">
-                        <?php 
-                        echo $this->Form->input('cep', ['required','class' => 'div-select', 'label' => 'CEP: *', 
+                        <?php
+                        echo $this->Form->input('cep', ['required','label' => 'CEP: *',
                         'type' => 'text']);
                         ?>
                     </div>
                     <div class="col-md-8">
                         <?php
-                        echo $this->Form->input('reference_point', ['required','class' => 'div-select', 'label' => 'Ponto de referência: *', 
+                        echo $this->Form->input('reference_point', ['required', 'label' => 'Ponto de referência: *',
                         'type' => 'text']);
                         ?>
-                    </div>                    
+                    </div>
 
                 </div>
 
@@ -134,19 +140,19 @@
 
             <div class="col-md-6">
 
-                <?php 
+                <?php
 
                 echo $this->Form->input('do', ['required', 'placeholder'=>'Nome do serviço.', 'label' => 'O que fazer? *', 'type' => 'text']);
                 echo $this->Form->input('local', ['required', 'placeholder'=>'Informe os possíveis locais.', 'label' => 'Qual o local? *', 'type' => 'text']);
                 echo $this->Form->input('period_frequency', ['required', 'placeholder'=>'Perído e frequência da realização.', 'label' => 'Quando/Frequência? *', 'type' => 'text']);
                 echo $this->Form->input('quantity', ['required', 'placeholder'=>'Quantidade prevista dos itens do serviço.', 'label' => 'Quantidade? *', 'type' => 'text']);
                 echo $this->Form->input('objective', ['required', 'placeholder'=>'O objetivo do serviço.', 'label' => 'Objetivo? *', 'type' => 'text']);
-                echo $this->Form->input('objective_legal', ['required', 'placeholder'=>'Existe algum requisito legal?','label' => 'Algum objetivo legal? *', 'type' => 'text']);    
-                echo $this->Form->input('consideration', ['label' => 'Mais alguma consideração?', 'type' => 'textarea']);   
+                echo $this->Form->input('objective_legal', ['required', 'placeholder'=>'Existe algum requisito legal?','label' => 'Algum objetivo legal? *', 'type' => 'text']);
+                echo $this->Form->input('consideration', ['label' => 'Mais alguma consideração?', 'type' => 'textarea']);
 
                 ?>
-                
-                <?php 
+
+                <?php
 
                 echo $this->Form->input('file', ['label' => 'Algum anexo para nos enviar?', 'type' => 'file']);
 
@@ -185,11 +191,11 @@
         font-size: 12px;
         color: #333;
         font-style:normal;
-        border-radius: 0;   
+        border-radius: 0;
         background: none;
         border: 2px solid #242424;
         box-shadow: none;
-        transition: border-color 0.3s ease-in-out; 
+        transition: border-color 0.3s ease-in-out;
         -webkit-transition: border-color 0.3s ease-in-out;
     }
 

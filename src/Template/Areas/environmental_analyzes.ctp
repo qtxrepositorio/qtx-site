@@ -1,49 +1,82 @@
-<?php ?>
-<html>
-    <head>
-        <?= $this->Html->charset() ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            <?= $cakeDescription ?>:
-            <?= $this->fetch('title') ?>
-        </title>
-        <?= $this->Html->meta('icon') ?>
+<div id="content">
+    <div class="container">
+        <div class="page-content">
 
-        <?= $this->Html->css('bootstrap.min.css') ?>
-        <?= $this->Html->css('flexslider.css') ?>
-        <?= $this->Html->css('prettyPhoto.css') ?>
-        <?= $this->Html->css('animate.css') ?>
-        <?= $this->Html->css('owl.carousel.css') ?>
-        <?= $this->Html->css('style.css') ?>
+            <!-- Start Call Action -->
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+                <!-- Call Action Button -->
+                <div class="button-side"><a href="agua.html" class="btn-system border-btn btn-medium">Mais detalhes</a></div>
+                <!-- Call Action Text -->
+                <h2 class="primary"><strong>Águas e Efluentes </strong></h2>
+                <p>Amostragens técnicas e laboratoriais para verificação de conformidade em relação aos requisitos legais...</p>
+            </div>
+            <!-- End Call Action -->
 
-        <?= $this->Html->script('jquery.min.js') ?>
-        <?= $this->Html->script('bootstrap.min.js') ?>
-        <?= $this->Html->script('jquery.prettyPhoto.js') ?>
-        <?= $this->Html->script('jquery.nicescroll.min.js') ?>
-        <?= $this->Html->script('superfish.min.js') ?>
-        <?= $this->Html->script('jquery.flexslider-min.js') ?>
-        <?= $this->Html->script('owl.carousel.js') ?>
-        <?= $this->Html->script('animate.js') ?>
-        <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
-        <?= $this->Html->script('myscript.js') ?>
+            <!-- Divider -->
+            <div class="hr1" style="margin-bottom:40px;"></div>
 
-        <?= $this->fetch('meta') ?>
-        <?= $this->fetch('css') ?>
-        <?= $this->fetch('script') ?>
+            <!-- Start Call Action -->
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+                <!-- Call Action Button -->
+                <div class="button-side"><a href="emissao-atmosferica.html" class="btn-system border-btn btn-medium">Mais detalhes</a></div>
+                <!-- Call Action Text -->
+                <h2 class="primary"><strong>Qualidade do Ar e Emissões gasosas</strong> </h2>
+                <p>A QUALITEX está engajada apoiando o Plano Nacional de Qualidade do Ar. O monitoramento da qualidade do ar e das fontes de emissão de ...</p>
+            </div>
+            <!-- End Call Action -->
 
-        <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+            <!-- Divider -->
+            <div class="hr1" style="margin-bottom:40px;"></div>
 
-    </head>
-    <body>
+            <!-- Start Call Action -->
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+                <!-- Call Action Button -->
+                <div class="button-side"><a href="alimentos.html" class="btn-system border-btn btn-medium">Mais detalhes</a></div>
+                <!-- Call Action Text -->
+                <h2 class="primary"><strong> Alimentos e Swabs</strong></h2>
+                <p>A QUALITEX está engajada apoiando a Política Nacional de Alimentação e Nutrição. A caracterização dos alimentos e suporte analítico...</p>
+            </div>
+            <!-- End Call Action -->
 
-        <section class="content">
+                                <div class="hr1" style="margin-bottom:40px;"></div>
 
-        </section>
+                                                    <!-- Start Call Action -->
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+                <!-- Call Action Button -->
+                <div class="button-side"><a href="combustivel.html" class="btn-system border-btn btn-medium">Mais detalhes</a></div>
+                <!-- Call Action Text -->
+                <h2 class="primary"><strong> Combustíveis Automotivos</strong></h2>
+                <p>Amostragens técnicas e laboratoriais para verificação de conformidade aos critérios de qualidade regulamentados pela ANP...</p>
+            </div>
+            <!-- End Call Action -->
 
-    </body>
+            <!-- Divider -->
+            <div class="hr1" style="margin-bottom:40px;"></div>
 
-</html>
+            <!-- Start Call Action -->
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+                <!-- Call Action Button -->
+                <div class="button-side"><a href="saude-ocupacional.html" class="btn-system border-btn btn-medium">Mais detalhes</a></div>
+                <!-- Call Action Text -->
+                <h2 class="primary"><strong>Saúde Ocupacional</strong></h2>
+                <p>Os ambientes de trabalho possuem regulamentações relacionadas a exposição dos trabalhadores a agentes físicos...</p>
+            </div>
+            <!-- End Call Action -->
 
- 
+            <!-- Divider -->
+            <div class="hr1" style="margin-bottom:40px;"></div>
+
+            <!-- Start Call Action -->
+            <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+                <!-- Call Action Button -->
+                <div class="button-side"><a href="residuos-solidos.html" class="btn-system border-btn btn-medium">Mais detalhes</a></div>
+                <!-- Call Action Text -->
+                <h2 class="primary"><strong>Resíduos Sólidos</strong></h2>
+                <p>A QUALITEX está engajada apoiando a Política Nacional de Resíduos Sólidos resultante de atividades humanas...</p>
+            </div>
+            <!-- End Call Action -->
+
+        </div>
+    </div>
+</div>
+<!-- End Content -->

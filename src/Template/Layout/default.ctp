@@ -17,266 +17,215 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <?= $this->Html->charset() ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            <?= $cakeDescription ?>:
-            <?= $this->fetch('title') ?>
-        </title>
-        <?= $this->Html->meta('icon') ?>
+<head>
+    <?= $this->Html->charset() ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <?= $cakeDescription ?>:
+        <?= $this->fetch('title') ?>
+    </title>
+    <?= $this->Html->meta('icon') ?>
 
-        <?= $this->Html->css('bootstrap.min.css') ?>
-        <?= $this->Html->css('flexslider.css') ?>
-        <?= $this->Html->css('prettyPhoto.css') ?>
-        <?= $this->Html->css('animate.css') ?>
-        <?= $this->Html->css('owl.carousel.css') ?>
-        <?= $this->Html->css('style.css') ?>
-        <?= $this->Html->css('font-awesome/css/font-awesome.css') ?>
+    <?= $this->Html->css('bootstrap.css') ?>
+    <?= $this->Html->css('style.css') ?>
+    <?= $this->Html->css('font-awesome.css') ?>
+    <?= $this->Html->css('responsive.css') ?>
+    <?= $this->Html->css('animate.css') ?>
 
-        <?= $this->Html->script('jquery.min.js') ?>
-        <?= $this->Html->script('bootstrap.min.js') ?>
-        <?= $this->Html->script('jquery.prettyPhoto.js') ?>
-        <?= $this->Html->script('jquery.nicescroll.min.js') ?>
-        <?= $this->Html->script('superfish.min.js') ?>
-        <?= $this->Html->script('jquery.flexslider-min.js') ?>
-        <?= $this->Html->script('owl.carousel.js') ?>
-        <?= $this->Html->script('animate.js') ?>
-        <?= $this->Html->script('jquery.BlackAndWhite.js') ?>
-        <?= $this->Html->script('myscript.js') ?>
+    <?= $this->Html->script('jquery.1.8.3.min.js') ?>
+    <?= $this->Html->script('bootstrap.js') ?>
+    <?= $this->Html->script('jquery-scrolltofixed.js') ?>
+    <?= $this->Html->script('jquery.easing.1.3.js') ?>
+    <?= $this->Html->script('jquery.isotope.js') ?>
+    <?= $this->Html->script('wow.js') ?>
+    <?= $this->Html->script('classie.js') ?>
+</head>
 
-        <script>
+<body>
 
-            //PrettyPhoto
-            jQuery(document).ready(function () {
-                $("a[rel^='prettyPhoto']").prettyPhoto();
-            });
-
-            //BlackAndWhite
-            $(window).load(function () {
-                $('.client_img').BlackAndWhite({
-                    hoverEffect: true, // default true
-                    // set the path to BnWWorker.js for a superfast implementation
-                    webworkerPath: false,
-                    // for the images with a fluid width and height 
-                    responsive: true,
-                    // to invert the hover effect
-                    invertHoverEffect: false,
-                    // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
-                    intensity: 1,
-                    speed: {//this property could also be just speed: value for both fadeIn and fadeOut
-                        fadeIn: 300, // 200ms for fadeIn animations
-                        fadeOut: 300 // 800ms for fadeOut animations
-                    },
-                    onImageReady: function (img) {
-                        // this callback gets executed anytime an image is converted
-                    }
-                });
-            });
-
-        </script>
-
-        <style type="text/css">
-
-            .color {
-                background-color: #151515;
-            }
-
-            .font{
-                color: #FFFAFA;   
-            }
-
-        </style>
-
-        <?= $this->fetch('meta') ?>
-        <?= $this->fetch('css') ?>
-        <?= $this->fetch('script') ?>
-    </head>
-    <body>
-
-        <?php 
-        echo $this->Html->image("preloader.gif", 
-        ["id" => "preloader"]
-        );
-        ?>
-
-        <div class="preloader_hide">
-
-            <div id="page">
-
-                <header>
-
-                    <div class="menu_block">
-
-                        <div class="container clearfix">
-
-                            <br>
-                            <?php echo $this->Html->image("logo.png", [
-                            "alt" => "Brownies",
-                            'url' => ['controller' => 'Pages', 'action' => 'index']
-                            ]);?>
-
-                            <div class="pull-right">
-                                <nav class="navmenu center">
-                                    <ul>
-                                        <li class="scroll_btn">
-                                            <?php echo $this->Html->link(__('Início'), array('controller'=> 'Pages','action' => '')); ?>
-                                        </li>
-                                        <li class="sub-menu">
-                                            <a href="javascript:void(0);" >Quem somos</a>
-                                            <ul>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Sobre a Qualitex'), array('controller'=> 'Who','action' => 'about'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Diretrizes de Condulta'), array('controller'=> 'Who','action' => 'guidelinesAndConduct'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Qualidade e Meio Ambiente'), array('controller'=> 'Who','action' => 'qualityAndEnvironment'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Documentos'), array('controller'=> 'Who','action' => 'documents'));?>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="sub-menu">
-                                            <a href="javascript:void(0);" >Aréas de atuações</a>
-                                            <ul>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Análises Ambientais'), array('controller'=> 'Areas','action' => 'environmentalAnalyzes'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Transporte de resíduos'), array('controller'=> 'Areas','action' => 'wasteTransport'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Serviços Operacionais'), array('controller'=> 'Areas','action' => 'operationalServices'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Tratamento de Efluentes'), array('controller'=> 'Areas','action' => 'wastewaterTreatment'));?>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="sub-menu">
-                                            <a href="javascript:void(0);" >Contatos</a>
-                                            <ul>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Localização'), array('controller'=> 'Contacts','action' => 'location'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Trabalhe Conosco'), array('controller'=> 'Contacts','action' => 'workHere'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Contatos Telefônicos'), array('controller'=> 'Contacts','action' => 'phoneContacts'));?>
-                                                </li>
-                                                <li><a href="http://goo.gl/forms/kXNpJ7Mkb8" target="_blank">Pesquisa de Satisfação</a>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('SAC'), array('controller'=> 'Contacts','action' => 'sac'));?>
-                                                </li>
-                                                <li>
-                                                    <?php echo $this->Html->link(__('Ouvidoria'), array('controller'=> 'Contacts','action' => 'ombudsman'));?>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="scroll_btn">
-                                            <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'Proposals','action' =>'requestProposal'));?>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-
-                <?= $this->Flash->render() ?>
-                <div>
-                    <?= $this->fetch('content') ?>
-                </div>
-
+    <?php if ($this->request->params['controller'] == 'Pages' && $this->request->params['action'] == 'display'): ?>
+        <header class="header" id="header">
+            <div class="container">
+                <figure class="logo animated fadeInDown delay-07s">
+                    <?= $this->Html->image('logo.png'); ?>
+                </figure>
+                <h1 class="animated fadeInDown delay-07s">Bem-vindo(a) ao nosso site!</h1>
+                <ul class="we-create animated fadeInUp delay-1s">
+                    <li>Somos uma empresa que ama o meio ambiente e nossos serviços buscam a melhor relação ele e o ser humano.</li>
+                </ul>
+                <a class="link animated fadeInUp delay-1s servicelink" href="#service">Entrar</a>
             </div>
+        </header>
+    <?php endif; ?>
 
-        </div>
+    <?php if ($this->request->params['controller'] == 'Pages' && $this->request->params['action'] == 'display'){ ?>
+        <nav class="main-nav-outer" id="test">
+        	<div class="container">
+                <ul class="main-nav">
+                	<li>
+                        <a href="#service">Quem somos</a>
+                    </li>
+                    <li><a href="#Portfolio">Áreas de atução</a></li>
+                    <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
+                    <li><a href="#client">Contato</a></li>
+                    <li>
+                        <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                    </li>
 
-        <section id="contacts">
-        </section>
 
-        <section class="color">
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
+    <?php }else{ ?>
+        <nav class="main-nav-outer" id="test">
+            <div class="container">
+                <ul class="main-nav">
+                    <li>
+                        <?php echo $this->Html->link(__('Quem somos'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Áreas de atução'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                    </li>
+                    <li class="small-logo">
+                        <?php
+                            echo $this->Html->image("logo3.png",
+                                array('url' =>
+                                    array('controller' => 'Pages', 'action' => 'home')
+                                    )
+                                );
+                        ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home#service')); ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                    </li>
 
-            <br>
 
-            <!-- CONTAINER -->
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
+    <?php } ?>
+
+    <?= $this->Flash->render() ?>
+    <div>
+        <?= $this->fetch('content') ?>
+    </div>
+
+    <footer class="footer">
         <div class="container">
-            
-            <!-- ROW -->
-            <div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-                
-                <div class="col-lg-4 col-md-4 col-sm-6 padbot30">
-                    <h4 class="font">Mais sobre a <b> Qualitex <b></h4>
-                    <div class="recent_posts_small clearfix">
-                        <div class="post_item_content_small">
-                            <?php echo $this->Html->link(__('Um pouco sobre a qualitex'), array('controller'=> 'Who','action' => 'about')); ?>
-                        </div>
-                    </div>
-                    <div class="recent_posts_small clearfix">
-                        <div class="post_item_content_small">
-                            <?php echo $this->Html->link(__('Nossos telefones'), array('controller'=> 'Contacts','action' => 'phone-contacts')); ?>
-                        </div>
-                    </div>
-                    <div class="recent_posts_small clearfix">
-                        <div class="post_item_content_small">
-                            <?php echo $this->Html->link(__('Alguns documentos'), array('controller'=> 'Who','action' => 'documents')); ?>
-                        </div>
-                    </div>
-                    <div class="recent_posts_small clearfix">
-                        <div class="post_item_content_small">
-                            <?php echo $this->Html->link(__('Diretrizes de conduta'), array('controller'=> 'Who','action' => 'guidelinesAndConduct')); ?>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
-                    <h4 class="font"><b>Qualitex</b> nas redes</h4>
-                    <p>Com o intuito de ficar cada vez mais perto de você, a Qualitex também está nas redes sociais.</p>
-                    <ul class="social">
-                        <li><a href="http://www.instagram.com/qualitex_qtx" ><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/QUALITEX/" ><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://plus.google.com/u/0/101749383972960088051/about" ><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://www.google.com.br/maps/place/Qualitex/@-9.672027,-35.8324737,17z/data=!3m1!4b1!4m5!3m4!1s0x70152bfffffffff:0xb0cd13cfbaac4b48!8m2!3d-9.672027!4d-35.830285" ><i class="map_show fa fa-map-marker"></i></a></li>
-                    </ul>
-                </div>
-                
-                <div class="respond_clear"></div>
-                
-                <div class="col-lg-4 col-md-4 padbot30">
-                    <h4 class="font">Solicite uma <b>Proposta</b> comercial:</h4>
+            <div class="footer-logo"><a href="#"><?= $this->Html->image('logop.png'); ?></a></div>
+            <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
+            <div class="credits">
+                <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
+                -->
+                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
 
-                    <p>Para maior agilidade, disponibilizamos a possibilidade do nosso cliente solicitar propostas comercias através do nosso site.</p>
-                    
-                    <!-- CONTACT FORM -->
-                    <div class="span9 contact_form">
-                        <div id="note"></div>
-                        <div id="fields">
-                            <?php $x=0; ?>
-                            <?= $this->Form->create($x, ['url' => ['controller' => 'Proposals', 'action' => 'requestProposal']]) ?>
-                                <div align="center">
-                                    <?= $this->Form->button(__('Solicitar'), ['class' => 'contact_btn']) ?>
-                                </div>
-                            <?= $this->Form->end() ?>
-                            
-                        </div>
-                    </div><!-- //CONTACT FORM -->
-                </div>
-            </div><!-- //ROW -->
-            <div class="row copyright">
-                <div class="col-lg-12 text-center">
-                
-                 <p>Feito com <i class="fa fa-heart"></i>, <a href="javascript:void(0);" >Setor TI Qualitex.</a></p>
-                </div>
-            
-            </div><!-- //ROW -->
-        </div><!-- //CONTAINER -->
+    <script type="text/javascript">
 
-        </section>
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false
 
-    </body>    
+        });
+
+    });
+    </script>
+
+    <script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100
+        }
+    );
+    wow.init();
+    </script>
+
+
+    <script type="text/javascript">
+    $(window).load(function(){
+
+        $('.main-nav li a, .servicelink').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 102
+            }, 1500,'easeInOutExpo');
+            /*
+            if you don't want to use the easing effects:
+            $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        if ($(window).width() < 768 ) {
+            $('.main-nav').hide();
+        }
+        event.preventDefault();
+    });
+})
+</script>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+
+
+    var $container = $('.portfolioContainer'),
+    $body = $('body'),
+    colW = 375,
+    columns = null;
+
+
+    $container.isotope({
+        // disable window resizing
+        resizable: true,
+        masonry: {
+            columnWidth: colW
+        }
+    });
+
+    $(window).smartresize(function(){
+        // check if columns has changed
+        var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+        if ( currentColumns !== columns ) {
+            // set new column count
+            columns = currentColumns;
+            // apply width to container manually, then trigger relayout
+            $container.width( columns * colW )
+            .isotope('reLayout');
+        }
+
+    }).smartresize(); // trigger resize to set container width
+    $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+
+            filter: selector,
+        });
+        return false;
+    });
+
+});
+
+</script>
+
+
+</body>
 
 </html>
