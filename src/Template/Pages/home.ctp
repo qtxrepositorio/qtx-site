@@ -59,6 +59,7 @@
                     </div>
 
                 </div>
+
                 <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">
                     <br><br><br>
                 	<?= $this->Html->image('macbook-pro.png'); ?>
@@ -187,11 +188,11 @@
 
     </section><!--main-section-end-->
 
-    <section class="main-section alabaster" id="contact"><!--main-section alabaster-start-->
+    <section class="main-section " id="contact"><!--main-section alabaster-start-->
     	<div class="container">
         	<div class="row">
     			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-                    <?= $this->Html->image('portfolio/phone.png'); ?>
+                    <?= $this->Html->image('iphone.png'); ?>
                 </figure>
             	<div class="col-lg-7 col-sm-8 featured-work">
                 	<h2>Entre em contato</h2>
@@ -202,8 +203,8 @@
                         	<i class="fa-phone-square"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3><?php echo $this->Html->link(__('Contatos telefônicos'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <h3><?php echo $this->Html->link(__('Contatos telefônicos'), array('controller'=> 'Contacts','action' => 'PhoneContacts')); ?></h3>
+                            <p>Lista de telefones por setor.</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -212,7 +213,7 @@
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-04s">
                             <h3><?php echo $this->Html->link(__('Localização'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <p>Dados de localização da Qualitex matriz e suas filiais.</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -220,8 +221,8 @@
                         	<i class="fa-suitcase"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                            <h3><?php echo $this->Html->link(__('Trabalhe conosco'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <h3><?php echo $this->Html->link(__('Trabalhe conosco'), array('controller'=> 'Contacts','action' => 'WorkHere')); ?></h3>
+                            <p>Quer trabalhar conosco? Envie seu currículo!</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -229,8 +230,8 @@
                         	<i class="fa-list"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3><?php echo $this->Html->link(__('Pesquisa de satisfação'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <h3><a target="_blank" href="http://goo.gl/forms/kXNpJ7Mkb8">Pesquisa de satisfação</a></h3>
+                            <p>Seu feedback é importante para o nosso aprimoramento contínuo!</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -238,8 +239,8 @@
                         	<i class="fa-magic"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                            <h3><?php echo $this->Html->link(__('Serviço de atendimento ao consumidor - SAC'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <h3><?php echo $this->Html->link(__('Serviço de atendimento ao consumidor - SAC'), array('controller'=> 'Contacts','action' => 'sac')); ?></h3>
+                            <p>Visando uma melhor relação com o cliente, disponibilizamos mais um canal de comunicação.</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -247,8 +248,8 @@
                         	<i class="fa-envelope"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                            <h3><?php echo $this->Html->link(__('Ouvidoria'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <h3><?php echo $this->Html->link(__('Ouvidoria'), array('controller'=> 'Contacts','action' => 'ombudsman')); ?></h3>
+                            <p>Nossa Ouvidoria busca garantir que os assuntos tratados pelo SAC possam ser reexaminados para que sejam plenamente resolvidos ou esclarecidos.</p>
                         </div>
                     </div>
 
@@ -268,7 +269,7 @@
             </div>
         	<ul class="client wow fadeIn delay-05s">
             	<li><a href="#">
-                	<img src="img/client-pic1.jpg" alt="">
+                    <?= $this->Html->image('client-pic1.jpg'); ?>
                     <h3>James Bond</h3>
                     <span>License To Drink Inc.</span>
                 </a></li>
@@ -279,11 +280,11 @@
     <div class="c-logo-part"><!--c-logo-part-start-->
         <div class="container">
             <ul>
-                <li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo1.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo2.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo3.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo4.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo5.png'); ?></a></li>
             </ul>
         </div>
     </div><!--c-logo-part-end-->
