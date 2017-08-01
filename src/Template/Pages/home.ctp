@@ -191,7 +191,7 @@
     	<div class="container">
         	<div class="row">
     			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-                    <?= $this->Html->image('portfolio/phone.png'); ?>
+                    <?= $this->Html->image('iphone.png'); ?>
                 </figure>
             	<div class="col-lg-7 col-sm-8 featured-work">
                 	<h2>Entre em contato</h2>
@@ -203,7 +203,7 @@
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-02s">
                             <h3><?php echo $this->Html->link(__('Contatos telefônicos'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <p>Lista de telefones por setor.</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -212,7 +212,7 @@
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-04s">
                             <h3><?php echo $this->Html->link(__('Localização'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <p>Dados de localização da Qualitex matriz e suas filiais.</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -221,7 +221,7 @@
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-06s">
                             <h3><?php echo $this->Html->link(__('Trabalhe conosco'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <p>Quer trabalhar conosco? Envie seu currículo!</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -229,8 +229,8 @@
                         	<i class="fa-list"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3><?php echo $this->Html->link(__('Pesquisa de satisfação'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <h3><a target="_blank" href="http://goo.gl/forms/kXNpJ7Mkb8">Pesquisa de satisfação</a></h3>
+                            <p>Seu feedback é importante para o nosso aprimoramento contínuo!</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -239,7 +239,7 @@
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-04s">
                             <h3><?php echo $this->Html->link(__('Serviço de atendimento ao consumidor - SAC'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <p>Visando uma melhor relação com o cliente, disponibilizamos mais um canal de comunicação.</p>
                         </div>
                     </div>
                     <div class="featured-box">
@@ -248,7 +248,7 @@
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-06s">
                             <h3><?php echo $this->Html->link(__('Ouvidoria'), array('controller'=> 'Who','action' => 'about')); ?></h3>
-                            <p></p>
+                            <p>Nossa Ouvidoria busca garantir que os assuntos tratados pelo SAC possam ser reexaminados para que sejam plenamente resolvidos ou esclarecidos.</p>
                         </div>
                     </div>
 
