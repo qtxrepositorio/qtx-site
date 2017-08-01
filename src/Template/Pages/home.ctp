@@ -189,7 +189,7 @@
 
     </section><!--main-section-end-->
 
-    <section class="main-section alabaster" id="contact"><!--main-section alabaster-start-->
+    <section class="main-section " id="contact"><!--main-section alabaster-start-->
     	<div class="container">
         	<div class="row">
     			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
@@ -240,7 +240,7 @@
                         	<i class="fa-magic"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                            <h3><?php echo $this->Html->link(__('Serviço de atendimento ao consumidor - SAC'), array('controller'=> 'Who','action' => 'about')); ?></h3>
+                            <h3><?php echo $this->Html->link(__('Serviço de atendimento ao consumidor - SAC'), array('controller'=> 'Contacts','action' => 'sac')); ?></h3>
                             <p>Visando uma melhor relação com o cliente, disponibilizamos mais um canal de comunicação.</p>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
                         	<i class="fa-envelope"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                            <h3><?php echo $this->Html->link(__('Ouvidoria'), array('controller'=> 'Who','action' => 'about')); ?></h3>
+                            <h3><?php echo $this->Html->link(__('Ouvidoria'), array('controller'=> 'Contacts','action' => 'ombudsman')); ?></h3>
                             <p>Nossa Ouvidoria busca garantir que os assuntos tratados pelo SAC possam ser reexaminados para que sejam plenamente resolvidos ou esclarecidos.</p>
                         </div>
                     </div>
