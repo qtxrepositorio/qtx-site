@@ -1,5 +1,3 @@
-<?php debug($this->request); ?>
-
 <section class="content">
 
     <section class="main-section" id="service">
@@ -61,6 +59,7 @@
                     </div>
 
                 </div>
+
                 <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">
                     <br><br><br>
                 	<?= $this->Html->image('macbook-pro.png'); ?>
@@ -204,7 +203,7 @@
                         	<i class="fa-phone-square"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3><?php echo $this->Html->link(__('Contatos telefônicos'), array('controller'=> 'Who','action' => 'about')); ?></h3>
+                            <h3><?php echo $this->Html->link(__('Contatos telefônicos'), array('controller'=> 'Contacts','action' => 'PhoneContacts')); ?></h3>
                             <p>Lista de telefones por setor.</p>
                         </div>
                     </div>

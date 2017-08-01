@@ -5,6 +5,9 @@
         <br><br>
 
         <div class="col-md-6">
+
+            <h4 class="classic-title"><span>SAC - Sistema de Atendimento ao Consumidor</span></h4>
+                <br>
                 <h4 align="center">
                     Canal exclusivo para manisfestação de clientes.
                 </h4>
