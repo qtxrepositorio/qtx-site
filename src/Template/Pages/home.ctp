@@ -1,3 +1,5 @@
+<?php debug($this->request); ?>
+
 <section class="content">
 
     <section class="main-section" id="service">
@@ -268,7 +270,7 @@
             </div>
         	<ul class="client wow fadeIn delay-05s">
             	<li><a href="#">
-                	<img src="img/client-pic1.jpg" alt="">
+                    <?= $this->Html->image('client-pic1.jpg'); ?>
                     <h3>James Bond</h3>
                     <span>License To Drink Inc.</span>
                 </a></li>
@@ -279,11 +281,11 @@
     <div class="c-logo-part"><!--c-logo-part-start-->
         <div class="container">
             <ul>
-                <li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo1.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo2.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo3.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo4.png'); ?></a></li>
+                <li><a href="#"><?= $this->Html->image('c-liogo5.png'); ?></a></li>
             </ul>
         </div>
     </div><!--c-logo-part-end-->
