@@ -222,7 +222,7 @@
                         	<i class="fa-suitcase"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                            <h3><?php echo $this->Html->link(__('Trabalhe conosco'), array('controller'=> 'Who','action' => 'about')); ?></h3>
+                            <h3><?php echo $this->Html->link(__('Trabalhe conosco'), array('controller'=> 'Contacts','action' => 'WorkHere')); ?></h3>
                             <p>Quer trabalhar conosco? Envie seu currículo!</p>
                         </div>
                     </div>
