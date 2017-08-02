@@ -3,9 +3,8 @@
     <section class="main-section" id="service">
         <div class="container">
             <h2>Quem somos</h2>
-            <h6>We offer exceptional service with complimentary hugs.</h6>
             <div class="row">
-                <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+                <div class="col-lg-12 col-sm-12 wow fadeInLeft delay-05s">
                     <div class="service-list">
                         <div class="service-list-col1">
                             <i class="fa-thumbs-up"></i>
@@ -60,10 +59,12 @@
 
                 </div>
 
+                <!--
                 <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">
                     <br><br><br>
-                	<?= $this->Html->image('macbook-pro.png'); ?>
+                	<?php //$this->Html->image('macbook-pro.png'); ?>
                 </figure>
+                -->
 
             </div>
         </div>
@@ -72,7 +73,6 @@
     <section class="main-section paddind" id="Portfolio">
         <div class="container">
             <h2>Áreas de atuação</h2>
-            <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
                     <li><a href="#" data-filter="*" class="current">Todas</a></li>
@@ -188,16 +188,16 @@
 
     </section><!--main-section-end-->
 
-    <section class="main-section " id="contact"><!--main-section alabaster-start-->
-    	<div class="container">
+    <section class="main-section contact" id="contact"><!--main-section alabaster-start-->
+
+        <div class="container">
+
+            <h2>Entre em contato</h2><br><br>
+
         	<div class="row">
-    			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-                    <?= $this->Html->image('iphone.png'); ?>
-                </figure>
-            	<div class="col-lg-7 col-sm-8 featured-work">
-                	<h2>Entre em contato</h2>
-                    <br>
-                	<!-- <P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P> -->
+
+                <div class="col-lg-6 col-sm-6 featured-work">
+
                 	<div class="featured-box">
                     	<div class="featured-box-col1 wow fadeInRight delay-02s">
                         	<i class="fa-phone-square"></i>
@@ -225,6 +225,10 @@
                             <p>Quer trabalhar conosco? Envie seu currículo!</p>
                         </div>
                     </div>
+
+                </div>
+    			<div class="col-lg-6 col-sm-6 featured-work">
+
                     <div class="featured-box">
                     	<div class="featured-box-col1 wow fadeInRight delay-02s">
                         	<i class="fa-list"></i>
