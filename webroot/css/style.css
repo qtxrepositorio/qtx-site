@@ -786,7 +786,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/footer.png) left top repeat;
+	background:url(../img/footer.png) no-repeat center center scroll;
 	padding:35px 0 35px;
 }
 .footer-logo{
