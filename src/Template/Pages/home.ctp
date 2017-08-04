@@ -10,7 +10,7 @@
                             <i class="fa-thumbs-up"></i>
                         </div>
                         <div class="service-list-col2">
-                            <h3 style="color:#7cc576"><?php echo $this->Html->link(__('A Qualitex'), array('controller'=> 'Who','action' => 'about')); ?></h3>
+                            <h3><?php echo $this->Html->link(__('A Qualitex'), array('controller'=> 'Who','action' => 'about')); ?></h3>
                             <p>
                                 A empresa iniciou suas atividades em 1992 no Pólo Cloroquímico de Alagoas,
                                 atendendo clientes locais para ensaios de laboratório industrial, estendendo

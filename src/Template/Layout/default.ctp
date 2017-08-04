@@ -122,7 +122,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 
     <footer class="footer">
         <div class="container">
-            
+
             <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
             <span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span>
 
