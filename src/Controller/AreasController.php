@@ -11,8 +11,19 @@ use App\Controller\AppController;
  */
 class AreasController extends AppController
 {
-    public function environmentalAnalyzes(){}
-    public function wasteTransport(){}
-    public function operationalServices(){}
+    //analises industriais e ambientais
+    public function waterAndEffluent(){}
+    public function airQualityAndGasEmissions(){}
+    public function foodAndSwabs(){}
+    public function automotiveFuels(){}
+    public function solidWaste(){}
+    public function occupational_health(){}
+
+    //operacoes industriais e ambientais
+    public function wasteTransportation(){}
+    public function wasteManagement(){}
     public function wastewaterTreatment(){}
+    public function cleaningAndPredialAndGreenAreaConservation(){}
+    public function industrialCleaning(){}
+
 }

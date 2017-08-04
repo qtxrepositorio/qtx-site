@@ -632,7 +632,7 @@ border: 2px solid #fff;
 }
 .contact-info-box{
 	font-size:15px;
-	margin:0 0 14px 68px;
+	margin:0 0 5px 10px;
 	padding-left:0;
 }
 .contact-info-box h3{
@@ -645,7 +645,7 @@ border: 2px solid #fff;
 }
 .contact-info-box h3 i{
 	font-style:normal;
-	font-size:18px;
+	font-size:15px;
 	color:#222222;
 	font-family: 'FontAwesome';
 	font-weight:normal;
@@ -655,10 +655,10 @@ border: 2px solid #fff;
 	line-height:28px;
 	display:block;
 	overflow:hidden;
+    color:#fff;
 }
 .social-link{
-	padding:35px 0;
-	margin:0 0 0 68px;
+	margin:0 0 0 50px;
 	display:block;
 	overflow:hidden;
 	list-style:none;
@@ -688,8 +688,8 @@ border: 2px solid #fff;
 .facebook a:hover {
 	background: #3b5998;
 }
-.pinterest a:hover {
-	background: #cb2026;
+.instagram a:hover {
+	background: #B03060;
 }
 .gplus a:hover {
 	background: #dd4b39;
@@ -786,11 +786,11 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/footer.png) left top repeat;
+	background:url(../img/footer.png) no-repeat center center scroll;
 	padding:35px 0 35px;
 }
 .footer-logo{
-	margin:15px auto 35px;
+	margin:15px auto 5px;
 	width: 176px;
 }
 .copyright, .credits{
@@ -885,5 +885,3 @@ border: 2px solid #fff;
 .partner {
     padding-bottom: 60px;
 }
-
-
