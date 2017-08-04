@@ -31,6 +31,8 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
     <?= $this->Html->css('font-awesome.css') ?>
     <?= $this->Html->css('responsive.css') ?>
     <?= $this->Html->css('animate.css') ?>
+    <?= $this->Html->css('owl.carousel.min.css') ?>
+    <?= $this->Html->css('owl.theme.default.min.css') ?>
 
     <?= $this->Html->script('jquery.1.8.3.min.js') ?>
     <?= $this->Html->script('bootstrap.js') ?>
@@ -39,6 +41,9 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
     <?= $this->Html->script('jquery.isotope.js') ?>
     <?= $this->Html->script('wow.js') ?>
     <?= $this->Html->script('classie.js') ?>
+    
+    <?= $this->Html->script('owl.carousel.js') ?>
+
 </head>
 
 <body>
@@ -51,7 +56,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                 </figure>
                 <h1 class="animated fadeInDown delay-07s">Bem-vindo(a) ao nosso site!</h1>
                 <ul class="we-create animated fadeInUp delay-1s">
-                    <li>Somos uma empresa que ama o meio ambiente e nossos serviços buscam a melhor relação ele e o ser humano.</li>
+                    <li>Somos uma empresa que ama o meio ambiente e nossos serviços buscam a melhor relação entre ele e o ser humano.</li>
                 </ul>
                 <a class="link animated fadeInUp delay-1s servicelink" href="#service">Entrar</a>
             </div>
@@ -65,11 +70,11 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                 	<li>
                         <a href="#service">Quem somos</a>
                     </li>
-                    <li><a href="#Portfolio">Áreas de atução</a></li>
+                    <li><a href="#Portfolio">Áreas de atuação</a></li>
                     <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
                     <li><a href="#contact">Contato</a></li>
                     <li>
-                        <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                        <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
                     </li>
 
 
@@ -85,7 +90,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         <?php echo $this->Html->link(__('Quem somos'), array('controller'=> 'Pages','action' => 'home', '#' => 'service')); ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link(__('Áreas de atução'), array('controller'=> 'Pages','action' => 'home', '#' => 'Portfolio')); ?>
+                        <?php echo $this->Html->link(__('Áreas de atuação'), array('controller'=> 'Pages','action' => 'home', '#' => 'Portfolio')); ?>
                     </li>
                     <li class="small-logo">
                         <?php
@@ -100,7 +105,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home', '#' => 'contact')); ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link(__('Solicitar propsota'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                        <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
                     </li>
 
 
@@ -117,17 +122,10 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 
     <footer class="footer">
         <div class="container">
+
             <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
-            <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
-            <div class="credits">
-                <!--
-                    All the links in the footer should remain intact.
-                    You can delete the links only if you purchased the pro version.
-                    Licensing information: https://bootstrapmade.com/license/
-                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
-                -->
-                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
+            <span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span>
+
         </div>
     </footer>
 

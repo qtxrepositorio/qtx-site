@@ -385,7 +385,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background: #4c8b4b;
 	color:#fff;
 	text-decoration:none;
 }
@@ -882,3 +882,8 @@ border: 2px solid #fff;
 	animation-delay: 1.2s;
 	-webkit-animation-delay: 1.2s;
 }
+.partner {
+    padding-bottom: 60px;
+}
+
+
