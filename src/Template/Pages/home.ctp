@@ -225,43 +225,11 @@
         <div class="container">
             <br><br><br>
             <div class="owl-carousel owl-theme">
-                <div class="item"><?= $this->Html->image('c1.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c2.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c3.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c4.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c5.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c6.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c7.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c8.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c9.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c10.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c11.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c12.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c13.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c14.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c15.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c16.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c17.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c18.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c19.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c20.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c21.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c22.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c23.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c24.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c25.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c26.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c27.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c28.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c29.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c30.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c31.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c32.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c33.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c34.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c35.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c36.png'); ?></div>
-                <div class="item"><?= $this->Html->image('c37.png'); ?></div>
+
+                <?php for ($i=1; $i<=37; $i++){ ?>
+                    <div class="item"><?= $this->Html->image('c' . $i . '.png'); ?></div>
+                <?php } ?>
+
             </div>
         </div><!--c-logo-part-end-->
     </div>
