@@ -67,8 +67,8 @@
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
                     <li><a href="#" data-filter="*" class="current">Todos Serviços</a></li>
-                    <li><a href="#" data-filter=".branding" >Análises Ambientais</a></li>
-                    <li><a href="#" data-filter=".printdesign" >Serviços Operacionais</a></li>
+                    <li><a href="#" data-filter=".branding" >Análises Industriais e Ambientais</a></li>
+                    <li><a href="#" data-filter=".printdesign" >Operações Industriais e Ambientais</a></li>
 
                 </ul>
             </div>
@@ -93,7 +93,7 @@
                 <h3>Tratamento de Efluentes</h3>
                 <p>A QUALITEX possui uma Estação de tratamento de efluentes sanitários e industriais compatíveis para tratamento pelo sistema biotecnológico instalado...</p>
             </div>
-                       
+
 
             <div class=" Portfolio-box branding">
                 <a href="#"><?= $this->Html->image('portfolio/aguaseefluentes.jpg'); ?></a>
@@ -223,7 +223,7 @@
     </section><!--business-talking-end-->
     <div class=""><!--c-logo-part-start-->
         <div class="container">
-            <br><br>
+            <br><br><br>
             <div class="owl-carousel owl-theme">
                 <div class="item"><?= $this->Html->image('c1.png'); ?></div>
                 <div class="item"><?= $this->Html->image('c2.png'); ?></div>
@@ -262,10 +262,10 @@
                 <div class="item"><?= $this->Html->image('c35.png'); ?></div>
                 <div class="item"><?= $this->Html->image('c36.png'); ?></div>
                 <div class="item"><?= $this->Html->image('c37.png'); ?></div>
-            </div>   
+            </div>
         </div><!--c-logo-part-end-->
     </div>
-        <br><br><br><br><br>
+        <br><br><br>
 </section>
 
 <script type="text/javascript">
