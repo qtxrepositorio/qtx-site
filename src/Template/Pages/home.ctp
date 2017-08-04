@@ -77,67 +77,67 @@
         <div class="portfolioContainer wow fadeInUp delay-04s">
 
             <div class=" Portfolio-box printdesign" >
-                <a href="#"><?= $this->Html->image('portfolio/Transporte_de_residuos.jpg'); ?></a>
+                <a href="../Areas/waste_transportation"><?= $this->Html->image('portfolio/Transporte_de_residuos.jpg'); ?></a>
                 <h3>Transporte de Resíduos</h3>
                 <p>A QUALITEX atua no mercado com essa atividade oferecendo o serviço completo englobando todos os itens logísticos no modal rodoviário através de...</p>
             </div>
             <div class=" Portfolio-box printdesign">
-                <a href="#"><?= $this->Html->image('portfolio/gerenciamento.png'); ?></a>
+                <a href="../Areas/waste_management"><?= $this->Html->image('portfolio/gerenciamento.png'); ?></a>
                 <h3>Gerenciamento de resíduos</h3>
                 <p>
                     Remoção de resíduos e borras em equipamentos, recolhimento de resíduos...
                 </p>
             </div>
             <div class=" Portfolio-box printdesign" >
-                <a href="#"><?= $this->Html->image('portfolio/eflu.jpg'); ?></a>
+                <a href="../Areas/wastewater_treatment"><?= $this->Html->image('portfolio/eflu.jpg'); ?></a>
                 <h3>Tratamento de Efluentes</h3>
                 <p>A QUALITEX possui uma Estação de tratamento de efluentes sanitários e industriais compatíveis para tratamento pelo sistema biotecnológico instalado...</p>
             </div>
 
 
             <div class=" Portfolio-box branding">
-                <a href="#"><?= $this->Html->image('portfolio/aguaseefluentes.jpg'); ?></a>
+                <a href="../Areas/water_and_effluent"><?= $this->Html->image('portfolio/aguaseefluentes.jpg'); ?></a>
                 <h3>Águas e Efluentes</h3>
                 <p>Amostragens técnicas e laboratoriais para verificação de conformidade em relação aos requisitos legais...</p>
             </div>
 
             <div class=" Portfolio-box branding">
-                <a href="#"><?= $this->Html->image('portfolio/qualidadedoar.jpg'); ?></a>
+                <a href="../Areas/air_quality_and_gas_emissions"><?= $this->Html->image('portfolio/qualidadedoar.jpg'); ?></a>
                 <h3>Qualidade do Ar e Emissões gasosas</h3>
                 <p>A QUALITEX está engajada apoiando o Plano Nacional de Qualidade do Ar. O monitoramento da qualidade do ar e das fontes de emissão de...</p>
             </div>
 
             <div class=" Portfolio-box branding">
-                <a href="#"><?= $this->Html->image('portfolio/alimentos.jpg'); ?></a>
+                <a href="../Areas/food_and_swabs"><?= $this->Html->image('portfolio/alimentos.jpg'); ?></a>
                 <h3>Alimentos e Swabs</h3>
                 <p>O Laboratório Qualitex atua no monitoramento analítico dos alimentos, utensílios e manipuladores em relação a parâmetros de controle biológico e na avaliação...</p>
             </div>
 
             <div class=" Portfolio-box branding">
-                <a href="#"><?= $this->Html->image('portfolio/combustivel.jpg'); ?></a>
+                <a href="../Areas/automotive_fuels"><?= $this->Html->image('portfolio/combustivel.jpg'); ?></a>
                 <h3>Combustíveis Automotivos</h3>
                 <p>Amostragens técnicas e laboratoriais para verificação de conformidade aos critérios de qualidade regulamentados pela ANP...</p>
             </div>
 
             <div class=" Portfolio-box branding">
-                <a href="#"><?= $this->Html->image('portfolio/saude.jpg'); ?></a>
+                <a href="../Areas/occupational_health"><?= $this->Html->image('portfolio/saude.jpg'); ?></a>
                 <h3>Saúde Ocupacional</h3>
                 <p> Através de medições e monitoramentos analíticos a QUALITEX tem apoiado o Plano Nacional de Segurança e Saúde no Trabalho com os serviços...</p>
             </div>
 
             <div class=" Portfolio-box branding">
-                <a href="#"><?= $this->Html->image('portfolio/residuos.jpg'); ?></a>
+                <a href="../Areas/solid_waste"><?= $this->Html->image('portfolio/residuos.jpg'); ?></a>
                 <h3>Resíduos Sólidos</h3>
                 <p>A QUALITEX está engajada apoiando a Política Nacional de Resíduos Sólidos resultante de atividades humanas...</p>
             </div>
             <div class=" Portfolio-box printdesign">
-                <a href="#"><?= $this->Html->image('portfolio/predial.jpg'); ?></a>
+                <a href="../Areas/cleaning_and_predial_and_green_area_conservation"><?= $this->Html->image('portfolio/predial.jpg'); ?></a>
                 <h3>Limpeza e conservação predial e de áreas verdes</h3>
                 <p>Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...</p>
             </div>
 
             <div class=" Portfolio-box printdesign">
-                <a href="#"><?= $this->Html->image('portfolio/limpeza.jpg'); ?></a>
+                <a href="../Areas/industrial_cleaning"><?= $this->Html->image('portfolio/limpeza.jpg'); ?></a>
                 <h3>Limpeza industrial</h3>
                 <p>Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...</p>
             </div>
