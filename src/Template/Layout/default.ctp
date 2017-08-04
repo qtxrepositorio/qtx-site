@@ -136,9 +136,9 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         <br>
 
                         <ul class="social-link">
-                            <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
-                            <li class="instagram"><a href="#"><i class="fa-instagram"></i></a></li>
-                            <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
+                            <li target="_blank" class="facebook"><a href="https://www.facebook.com/QUALITEX/"><i class="fa-facebook"></i></a></li>
+                            <li target="_blank" class="instagram"><a href="https://www.instagram.com/qualitex_qtx/"><i class="fa-instagram"></i></a></li>
+                            <li target="_blank" class="gplus"><a href="https://plus.google.com/u/0/101749383972960088051"><i class="fa-google-plus"></i></a></li>
                         </ul>
 
                         <br><br>
