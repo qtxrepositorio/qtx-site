@@ -1092,7 +1092,7 @@ input[type="submit"] {
 #contact-form input[type="text"],
 #contact-form textarea,
 #respond input[type="text"],
-#respond textarea, .email {
+#respond textarea {
     color: #666fb5;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
