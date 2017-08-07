@@ -14,19 +14,15 @@
         <div class="col-md-6">
 
             <div class="tab-pane fade in active" id="tab-4">
-                <h4 class="classic-title"><span>Tratamento de eluentes</span></h4>
+                <h4 class="classic-title"><span>Gerenciamento de resíduos</span></h4>
                 <p>
-                    Para melhor atender seus Clientes, a QUALITEX possui uma Estação de
-                    tratamento de efluentes sanitários e industriais compatíveis para tratamento
-                    pelo sistema biotecnológico instalado. O serviço abrange o recolhimento do
-                    efluente no local da sua geração por caminhões tipo vácuo (Sugadores) da
-                    frota própria. O tratamento adequado de efluentes é uma atividade muito
-                    importante de gestão ambiental da QUALITEX, pois além da finalidade de
-                    suportar empresas no atendimento de exigências legais, também ajuda a
-                    prevenir a contaminação de águas superficiais e subterrâneas. Com a sua
-                    Bioestação de tratamento de efluentes com tecnologia 100% nacional e
-                    consumo zero de energia elétrica, a QUALITEX atua colaborativamente
-                    para que os objetivos da Política Nacional de Resíduos sejam alcançados.
+                    <li>
+                        Remoção de resíduos e borras em equipamentos, tais como: SAO, torres, vasos, tanques, permutadores, canaletas, sistemas de resfriamento, etc.
+                        Recolhimento de resíduos com caminhão vácuo (sugador) e caminhão super-vácuo (para borras viscosas)
+                    </li>
+                    <li>
+                        Remoção de solo contaminado e acondicionamento para transporte;
+                    </li>
                 </p>
 
             </div>
@@ -84,72 +80,73 @@
 
         <div class="col-md-12">
 
-            <h4 class="classic-title"><span>Outras Análises Ambientais</span></h4>
+            <h4 class="classic-title"><span>Outras Serviços Industriais</span></h4>
 
             <div class="row">
 
                 <div class="col-md-6 service-box service-icon-left-more">
                     <div class="service-icon">
-                        <i class="fa fa-bullseye icon-medium"></i>
+                        <i class="fa fa-bars icon-medium"></i>
                     </div>
                     <div class="service-content">
                         <h4>
-                            <?php echo $this->Html->link(__('Qualidade do Ar e Emissões Atmósféricas'), array('action' => 'air-quality-and-gas-emissions')); ?>
+                            <?php echo $this->Html->link(__('Limpezas industriais'), array('action' => 'industrial-cleaning')); ?>
                         </h4>
                         <p>
-                            A Qualitex busca atender nossos clientes prezando pelo desenvolvimento sustentável...
-                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'air-quality-and-gas-emissions')); ?>
+                            Limpezas de equipamentos industriais: SAO, torres, vasos, tanques, permutadores, canaletas, sistemas de resfriamento, etc...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'industrial-cleaning')); ?>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 service-box service-icon-left-more">
                     <div class="service-icon">
-                        <i class="fa fa-shopping-cart icon-medium"></i>
+                        <i class="fa fa-truck icon-medium"></i>
                     </div>
                     <div class="service-content">
                         <h4>
-                            <?php echo $this->Html->link(__('Alimentos e Swabs'), array('action' => 'food-and-swabs')); ?>
+                            <?php echo $this->Html->link(__('Transpote de resíduos'), array('action' => 'waste-transportation')); ?>
                         </h4>
                         <p>
-                            A QUALITEX está engajada apoiando a Política Nacional de Alimentação e Nutrição. A caracterização dos alimentos e suporte analítico...
-                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'food-and-swabs')); ?>
+                            O transporte de cargas perigosas e não perigosas é uma atividade que requer muita atenção por parte dos gestores ...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'waste-transportation')); ?>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 service-box service-icon-left-more">
                     <div class="service-icon">
-                        <i class="fa fa-users icon-medium"></i>
+                        <i class="fa fa-shield icon-medium"></i>
                     </div>
                     <div class="service-content">
                         <h4>
-                            <?php echo $this->Html->link(__('Saúde Ocupacional'), array('action' => 'occupational-health')); ?>
+                            <?php echo $this->Html->link(__('Limpeza e preservação predial e de áreas verdes'), array('action' => 'cleaning-and-predial-and-green-area-conservation')); ?>
                         </h4>
                         <p>
-                            O Condicionador de Ar pode ser interessante para manter o ambiente livre da poluição externa, desde que os filtros estejam sempre bem limpos. Em muitos casos, a qualidade do ar de interiores pode ser pior do que a do ar externo...
-                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'occupational-health')); ?>
+                            Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'cleaning-and-predial-and-green-area-conservation')); ?>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 service-box service-icon-left-more">
                     <div class="service-icon">
-                        <i class="fa fa-cubes icon-medium"></i>
+                        <i class="fa fa-asterisk icon-medium"></i>
                     </div>
                     <div class="service-content">
                         <h4>
-                            <?php echo $this->Html->link(__('Resíduos Sólidos'), array('action' => 'solid-waste')); ?>
+                            <?php echo $this->Html->link(__('Tratamento de efluentes'), array('action' => 'wastewater-treatment')); ?>
                         </h4>
                         <p>
-                            Nosso laboratório oferece todo o suporte para coleta, caracterização e destinação final de todos os resíduos sólidos e semi-sólidos...
-                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'solid-waste')); ?>
+                            A QUALITEX possui uma Estação de tratamento de efluentes sanitários e industriais compatíveis para tratamento pelo sistema biotecnológico instalado...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'wastewater-treatment')); ?>
                         </p>
                     </div>
                 </div>
 
             </div>
         </div>
+
 
     </div>
 
