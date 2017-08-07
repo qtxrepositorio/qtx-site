@@ -88,7 +88,7 @@
             </div>
             <div class=" Portfolio-box printdesign">
                 <?=
-                    $this->Html->image("portfolio/gerenciamento.jpg", [
+                    $this->Html->image("portfolio/gerenciamento.png", [
                         "alt" => "Brownies",
                         'url' => ['controller' => 'areas', 'action' => 'waste_management']
                     ]);

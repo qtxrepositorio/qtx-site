@@ -17,7 +17,9 @@ class AreasController extends AppController
     public function foodAndSwabs(){}
     public function automotiveFuels(){}
     public function solidWaste(){}
-    public function occupational_health(){}
+    public function occupationalHealth(){}
+
+
 
     //operacoes industriais e ambientais
     public function wasteTransportation(){}

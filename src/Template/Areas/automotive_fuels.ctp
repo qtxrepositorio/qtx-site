@@ -92,8 +92,13 @@
                         <i class="fa fa-bullseye icon-medium"></i>
                     </div>
                     <div class="service-content">
-                        <h4>Qualidade do Ar e Emissões Atmósféricas</h4>
-                        <p>A Qualitex busca atender nossos clientes prezando pelo desenvolvimento sustentável...<a href="emissao-atmosferica.html"> Leia Mais</a></p>
+                        <h4>
+                            <?php echo $this->Html->link(__('Qualidade do Ar e Emissões Atmósféricas'), array('action' => 'air-quality-and-gas-emissions')); ?>
+                        </h4>
+                        <p>
+                            A Qualitex busca atender nossos clientes prezando pelo desenvolvimento sustentável...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'air-quality-and-gas-emissions')); ?>
+                        </p>
                     </div>
                 </div>
 
@@ -102,8 +107,13 @@
                         <i class="fa fa-shopping-cart icon-medium"></i>
                     </div>
                     <div class="service-content">
-                        <h4>Alimentos e Swabs</h4>
-                        <p>A QUALITEX está engajada apoiando a Política Nacional de Alimentação e Nutrição. A caracterização dos alimentos e suporte analítico...<a href="alimentos.html"> Leia Mais</a></p>
+                        <h4>
+                            <?php echo $this->Html->link(__('Alimentos e Swabs'), array('action' => 'food-and-swabs')); ?>
+                        </h4>
+                        <p>
+                            A QUALITEX está engajada apoiando a Política Nacional de Alimentação e Nutrição. A caracterização dos alimentos e suporte analítico...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'food-and-swabs')); ?>
+                        </p>
                     </div>
                 </div>
 
@@ -112,8 +122,13 @@
                         <i class="fa fa-users icon-medium"></i>
                     </div>
                     <div class="service-content">
-                        <h4>Saúde Ocupacional</h4>
-                        <p>O Condicionador de Ar pode ser interessante para manter o ambiente livre da poluição externa, desde que os filtros estejam sempre bem limpos. Em muitos casos, a qualidade do ar de interiores pode ser pior do que a do ar externo... <a href="saude-ocupacional.html"> Leia Mais</a></p>
+                        <h4>
+                            <?php echo $this->Html->link(__('Saúde Ocupacional'), array('action' => 'occupational-health')); ?>
+                        </h4>
+                        <p>
+                            O Condicionador de Ar pode ser interessante para manter o ambiente livre da poluição externa, desde que os filtros estejam sempre bem limpos. Em muitos casos, a qualidade do ar de interiores pode ser pior do que a do ar externo...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'occupational-health')); ?>
+                        </p>
                     </div>
                 </div>
 
@@ -122,8 +137,13 @@
                         <i class="fa fa-cubes icon-medium"></i>
                     </div>
                     <div class="service-content">
-                        <h4>Resíduos Sólidos</h4>
-                        <p>Nosso laboratório oferece todo o suporte para coleta, caracterização e destinação final de todos os resíduos sólidos e semi-sólidos... <a href="residuos-solidos.html"> Leia Mais</a></p>
+                        <h4>
+                            <?php echo $this->Html->link(__('Resíduos Sólidos'), array('action' => 'solid-waste')); ?>
+                        </h4>
+                        <p>
+                            Nosso laboratório oferece todo o suporte para coleta, caracterização e destinação final de todos os resíduos sólidos e semi-sólidos...
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'solid-waste')); ?>
+                        </p>
                     </div>
                 </div>
 
