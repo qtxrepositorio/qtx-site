@@ -5,7 +5,6 @@
 <?= $this->Html->css('css-old/style.css') ?>
 <?= $this->Html->css('css-old/responsive.css') ?>
 
-
 <section class="content">
 
     <br><br>
