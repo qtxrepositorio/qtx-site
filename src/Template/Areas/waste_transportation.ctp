@@ -1,8 +1,13 @@
+
+<?= $this->Html->css('css-old/animate.css') ?>
+<?= $this->Html->css('css-old/bootstrap.css') ?>
+<?= $this->Html->css('css-old/estilo.css') ?>
+<?= $this->Html->css('css-old/style.css') ?>
+<?= $this->Html->css('css-old/responsive.css') ?>
 <?= $this->Html->css('grid.css') ?>
 
 <style media="screen">
-.gallery
-{
+.gallery {
     display: inline-block;
     margin-top: 20px;
 }

@@ -223,7 +223,7 @@
                         	<i class="fa-map-marker"></i>
                         </div>
                     	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                            <h3><?php echo $this->Html->link(__('Localização'), array('controller'=> 'Who','action' => 'about')); ?></h3>
+                            <h3><?php echo $this->Html->link(__('Localização'), array('controller'=> 'Contacts','action' => 'location')); ?></h3>
                             <p>Dados de localização da Qualitex matriz e suas filiais.</p>
                         </div>
                     </div>
