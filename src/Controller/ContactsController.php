@@ -17,18 +17,21 @@ class ContactsController extends AppController
 
     public function location(){}
     public function phoneContacts(){}
-    
+
     public function safisationSearch(){}
 
     public function sac($id = null){
 
     	if ($this->request->is('post')) {
-    		$this->getMailer('Contacts')->send('sacMail', 
+    		$this->getMailer('Contacts')->send('sacMail',
     			[
     				$this->request->data,
     				$this->request->data['email'],
-    				'sac@qualitex.com.br'
+    				'desenvolvimento@qualitex.com.br' // sac
     			]);
+			return $this->redirect(
+	            ['controller' => 'Answer', 'action' => 'answer_sac']
+	        );
     	}
 
     }
@@ -36,12 +39,15 @@ class ContactsController extends AppController
     public function ombudsman($id = null){
 
     	if ($this->request->is('post')) {
-    		$this->getMailer('Contacts')->send('ombudsmanMail', 
+    		$this->getMailer('Contacts')->send('ombudsmanMail',
     			[
     				$this->request->data,
     				$this->request->data['email'],
-    				'ouvidoria@qualitex.com.br'
+    				'desenvolvimento@qualitex.com.br' //ouvidoria
     			]);
+			return $this->redirect(
+	            ['controller' => 'Answer', 'action' => 'answer_ombudsman']
+	        );
     	}
     }
 
@@ -49,13 +55,18 @@ class ContactsController extends AppController
 
         if ($this->request->is('post')) {
 
-            $this->getMailer('Contacts')->send('workHereMail', 
+            $this->getMailer('Contacts')->send('workHereMail',
                 [
                     $this->request->data,
                     $this->request->data['email'],
                     'desenvolvimento@qualitex.com.br'
                 ]);
+
+			return $this->redirect(
+				['controller' => 'Answer', 'action' => 'answer_work_here']
+			);
+
         }
     }
-    
+
 }

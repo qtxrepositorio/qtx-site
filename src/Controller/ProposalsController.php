@@ -18,14 +18,18 @@ class ProposalsController extends AppController
     public function requestProposal(){
 
     	if ($this->request->is('post')) {
-    		$this->getMailer('Proposals')->send('requestProposalMail', 
+    		$this->getMailer('Proposals')->send('requestProposalMail',
     			[
     				$this->request->data,
     				$this->request->data['email'],
     				'desenvolvimento@qualitex.com.br'
     			]);
+
+            return $this->redirect(
+                ['controller' => 'Answer', 'action' => 'answer_proposals']
+            );
     	}
 
     }
-    
+
 }
