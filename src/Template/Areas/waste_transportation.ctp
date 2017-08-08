@@ -259,7 +259,7 @@
     background-image: url('..//webroot/img/grids/waste-transportation/6.png');
 }
 .wrapper .column:nth-child(7) .inner {
-    background-image: url('..//webroot/img/grids/waste-transportation/7.png');
+    background-image: url('..//webroot/img/grids/waste-transportation/.png');
 }
 .wrapper .column:nth-child(8) .inner {
     background-image: url('..//webroot/img/grids/waste-transportation/8.png');
@@ -277,6 +277,6 @@
     background-image: url('..//webroot/img/grids/waste-transportation/12.png');
 }
 .wrapper .column:nth-child(13) .inner {
-    background-image: url('..//webroot/img/grids/waste-transportation/13.png'); 
+    background-image: url('..//webroot/img/grids/waste-transportation/13.png');
 }
 </style>
