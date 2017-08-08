@@ -241,42 +241,42 @@
 <style media="screen">
 
 .wrapper .column:nth-child(1) .inner {
-    background-image: url('..//webroot/img/1.png');
+    background-image: url('..//webroot/img/grids/waste-transportation/1.png');
 }
 .wrapper .column:nth-child(2) .inner {
-    background-image: url('..//webroot/img/1.png');
+    background-image: url('..//webroot/img/grids/waste-transportation/2.png');
 }
 .wrapper .column:nth-child(3) .inner {
-    background-image: url('https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11008257_1569363026647030_933015336_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/3.png');
 }
 .wrapper .column:nth-child(4) .inner {
-    background-image: url('https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11056045_436886419818172_768672462_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/4.png');
 }
 .wrapper .column:nth-child(5) .inner {
-    background-image: url('https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11049260_1374759412847590_258656935_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/5.png');
 }
 .wrapper .column:nth-child(6) .inner {
-    background-image: url('https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11005276_1414641038838035_1026684390_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/6.png');
 }
 .wrapper .column:nth-child(7) .inner {
-    background-image: url('https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11032879_730451393737672_1900382729_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/7.png');
 }
 .wrapper .column:nth-child(8) .inner {
-    background-image: url('https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11008309_1069768239717639_19410808_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/8.png');
 }
 .wrapper .column:nth-child(9) .inner {
-    background-image: url('https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/10919595_795737697170495_727510522_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/9.png');
 }
 .wrapper .column:nth-child(10) .inner {
-    background-image: url('https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11005073_763217610443223_1974563188_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/10.png');
 }
 .wrapper .column:nth-child(11) .inner {
-    background-image: url('https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/10903752_533893980082103_132962602_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/11.png');
 }
 .wrapper .column:nth-child(12) .inner {
-    background-image: url('https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/10483464_355418301328333_1012884493_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/12.png');
 }
 .wrapper .column:nth-child(13) .inner {
-    background-image: url('https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/10483455_592335754230795_537719826_n.jpg');
+    background-image: url('..//webroot/img/grids/waste-transportation/13.png'); 
 }
 </style>
