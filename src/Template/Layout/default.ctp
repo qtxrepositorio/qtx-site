@@ -82,108 +82,105 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                 <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
             </div>
         </nav>
-        <?php }else{ ?>
-            <nav class="main-nav-outer" id="test">
-                <div class="container">
-                    <ul class="main-nav">
-                        <li>
-                            <?php echo $this->Html->link(__('Quem somos'), array('controller'=> 'Pages','action' => 'home', '#' => 'service')); ?>
-                        </li>
-                        <li>
-                            <?php echo $this->Html->link(__('Áreas de atuação'), array('controller'=> 'Pages','action' => 'home', '#' => 'Portfolio')); ?>
-                        </li>
-                        <li class="small-logo">
-                            <?php
-                            echo $this->Html->image("logo3.png",
-                            array('url' =>
-                            array('controller' => 'Pages', 'action' => 'home')
-                        )
-                    );
-                    ?>
-                </li>
-                <li>
-                    <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home', '#' => 'contact')); ?>
-                </li>
-                <li>
-                    <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
-                </li>
+    <?php }else{ ?>
+        <nav class="main-nav-outer" id="test">
+            <div class="container">
+                <ul class="main-nav">
+                    <li>
+                        <?php echo $this->Html->link(__('Quem somos'), array('controller'=> 'Pages','action' => 'home', '#' => 'service')); ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Áreas de atuação'), array('controller'=> 'Pages','action' => 'home', '#' => 'Portfolio')); ?>
+                    </li>
+                    <li class="small-logo">
+                        <?php
+                        echo $this->Html->image("logo3.png",
+                                array('url' =>
+                                array('controller' => 'Pages', 'action' => 'home')
+                            )
+                        );
+                ?>
+            </li>
+            <li>
+                <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home', '#' => 'contact')); ?>
+            </li>
+            <li>
+                <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+            </li>
 
 
-            </ul>
-            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-        </div>
-    </nav>
-    <?php } ?>
-
-    <?= $this->Flash->render() ?>
-    <div>
-        <?= $this->fetch('content') ?>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
+</nav>
+<?php } ?>
 
-    <footer class="footer">
+<?= $this->Flash->render() ?>
+<div>
+    <?= $this->fetch('content') ?>
+</div>
 
-        <div class="container">
+<footer class="footer">
 
-            <div class="row">
+    <div class="container">
 
-                <div align="center" class="col-md-6">
+        <div class="row">
 
-                    <div align="center" class="col-md-2"></div>
+            <div align="center" class="col-md-6">
 
-                    <div class="col-md-8">
+                <div align="center" class="col-md-2"></div>
 
-                        <br>
-                        <br>
+                <div class="col-md-8">
 
-                        <ul class="social-link">
-                            <li target="_blank" class="facebook"><a href="https://www.facebook.com/QUALITEX/"><i class="fa-facebook"></i></a></li>
-                            <li target="_blank" class="instagram"><a href="https://www.instagram.com/qualitex_qtx/"><i class="fa-instagram"></i></a></li>
-                            <li target="_blank" class="gplus"><a href="https://plus.google.com/u/0/101749383972960088051"><i class="fa-google-plus"></i></a></li>
-                        </ul>
+                    <br>
+                    <br>
 
-                        <br><br>
+                    <ul class="social-link">
+                        <li target="_blank" class="facebook"><a href="https://www.facebook.com/QUALITEX/"><i class="fa-facebook"></i></a></li>
+                        <li target="_blank" class="instagram"><a href="https://www.instagram.com/qualitex_qtx/"><i class="fa-instagram"></i></a></li>
+                        <li target="_blank" class="gplus"><a href="https://plus.google.com/u/0/101749383972960088051"><i class="fa-google-plus"></i></a></li>
+                    </ul>
 
-                        <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
-                        <span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span>
+                    <br><br>
 
-                    </div>
-
-                    <div align="center" class="col-md-2"></div>
+                    <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
+                    <span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span>
 
                 </div>
 
-                <div class="col-md-6 wow fadeInLeft">
-                    <div class="contact-info-box address clearfix">
-                        <h3><i class=" icon-map-marker"></i>Endereço:</h3>
-                        <span>
-                            RODOVIA DIVALDO SURUAGY,
-                            <br>
-                                DISTRITO INDUSTRIAL JOSÉ APRÍGIO VILELA,
-                            <br>
-                                MARECHAL DEODORO, ALAGOAS, BRASIL
-                            <br>
-                                KM 12, VIA L, CEP: 57.160-000
-                        </span>
-                    </div>
-                    <div class="contact-info-box phone clearfix">
-                        <h3><i class="fa-phone"></i>Telefone:</h3>
-                        <span>+55 (82) 3036-1750</span>
-                    </div>
-                    <div class="contact-info-box email clearfix">
-                        <h3><i class="fa-pencil"></i>email:</h3>
-                        <span>QUALITEX@QUALITEX.COM.BR</span>
-                    </div>
-                    <div class="contact-info-box hours clearfix">
-                        <h3><i class="fa-clock-o"></i>Horários:</h3>
-                        <span><strong>SEGUNDA - SEXTA:</strong> 07:30 am - 17:00 pm<br><strong></span>
+                <div align="center" class="col-md-2"></div>
+
+            </div>
+
+            <div class="col-md-6 wow fadeInLeft">
+                <div class="contact-info-box address clearfix">
+                    <h3><i class=" icon-map-marker"></i>Endereço:</h3>
+                    <span>
+                        RODOVIA DIVALDO SURUAGY,
+                        <br>
+                        DISTRITO INDUSTRIAL JOSÉ APRÍGIO VILELA,
+                        <br>
+                        MARECHAL DEODORO, ALAGOAS, BRASIL
+                        <br>
+                        KM 12, VIA L, CEP: 57.160-000
+                    </span>
+                </div>
+                <div class="contact-info-box phone clearfix">
+                    <h3><i class="fa-phone"></i>Telefone:</h3>
+                    <span>+55 (82) 3036-1750</span>
+                </div>
+                <div class="contact-info-box email clearfix">
+                    <h3><i class="fa-pencil"></i>email:</h3>
+                    <span>QUALITEX@QUALITEX.COM.BR</span>
+                </div>
+                <div class="contact-info-box hours clearfix">
+                    <h3><i class="fa-clock-o"></i>Horários:</h3>
+                    <span><strong>SEGUNDA - SEXTA:</strong> 07:30 am - 17:00 pm<br><strong></span>
                     </div>
 
                 </div>
 
             </div>
-
-
-
 
         </div>
 
@@ -197,6 +194,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
 <script type="text/javascript">
 
 $(document).ready(function(e) {
+
     $('#test').scrollToFixed();
     $('.res-nav_click').click(function(){
         $('.main-nav').slideToggle();
@@ -205,6 +203,7 @@ $(document).ready(function(e) {
     });
 
 });
+
 </script>
 
 <script>
@@ -221,11 +220,12 @@ wow.init();
 <script type="text/javascript">
 $(window).load(function(){
 
+
     $('.main-nav li a, .servicelink').bind('click',function(event){
         var $anchor = $(this);
 
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 102
+            scrollTop: $($anchor.attr('href')).offset().top - 30
         }, 1500,'easeInOutExpo');
         /*
         if you don't want to use the easing effects:
@@ -245,12 +245,10 @@ $(window).load(function(){
 
 $(window).load(function(){
 
-
     var $container = $('.portfolioContainer'),
     $body = $('body'),
     colW = 375,
     columns = null;
-
 
     $container.isotope({
         // disable window resizing
