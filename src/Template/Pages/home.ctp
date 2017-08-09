@@ -1,5 +1,5 @@
 
-<section class="main-section" id="service">
+<section class="main-section" id="about">
     <div class="container">
         <h2>Quem somos</h2>
         <div class="row">
@@ -297,8 +297,8 @@ ref = url.split("#");
 
 if (ref[1] == "contact") {
     window.location.href = "#contact"
-}else if(ref[1] == "service"){
-    window.location.href = "#service"
+}else if(ref[1] == "about"){
+    window.location.href = "#about"
 }else if(ref[1] == "Portfolio"){
     window.location.href = "#Portfolio"
 }
