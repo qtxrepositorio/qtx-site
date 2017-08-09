@@ -269,11 +269,12 @@
     </div>
 </section>
 
-<section class="main-section">
+<section class="business-talking">
     <div class="container">
         <h2>Alguns Clientes</h2>
     </div>
 </section>
+
 <div class="">
     <div class="container">
         <br><br><br>
