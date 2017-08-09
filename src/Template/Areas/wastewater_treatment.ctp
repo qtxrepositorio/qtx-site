@@ -118,7 +118,7 @@
                         </h4>
                         <p>
                             Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...
-                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'cleaning-and-predial-and-green-area-conservation')); ?>
+                            <?php echo $this->Html->link(__('Leia mais'), array('action' => 'cleaning_predial_green_conservation')); ?>
                         </p>
                     </div>
                 </div>
