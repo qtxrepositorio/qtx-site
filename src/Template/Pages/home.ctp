@@ -60,7 +60,7 @@
     </div>
 </section>
 
-<section class="main-section" id="Portfolio">
+<section class="main-section" id="portfolio">
     <div class="container">
         <h2>Áreas de atuação</h2>
         <div class="portfolioFilter">
@@ -299,8 +299,8 @@ if (ref[1] == "contact") {
     window.location.href = "#contact"
 }else if(ref[1] == "about"){
     window.location.href = "#about"
-}else if(ref[1] == "Portfolio"){
-    window.location.href = "#Portfolio"
+}else if(ref[1] == "portfolio"){
+    window.location.href = "#portfolio"
 }
 
 

@@ -70,7 +70,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     <li>
                         <a href="#about">Quem somos</a>
                     </li>
-                    <li><a href="#Portfolio">Áreas de atuação</a></li>
+                    <li><a href="#portfolio">Áreas de atuação</a></li>
                     <li class="small-logo"><a href="#header"><?= $this->Html->image('logo3.png'); ?></a></li>
                     <li><a href="#contact">Contato</a></li>
                     <li>
@@ -90,7 +90,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                         <?php echo $this->Html->link(__('Quem somos'), array('controller'=> 'Pages','action' => 'home', '#' => 'about')); ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link(__('Áreas de atuação'), array('controller'=> 'Pages','action' => 'home', '#' => 'Portfolio')); ?>
+                        <?php echo $this->Html->link(__('Áreas de atuação'), array('controller'=> 'Pages','action' => 'home', '#' => 'portfolio')); ?>
                     </li>
                     <li class="small-logo">
                         <?php
