@@ -179,7 +179,7 @@
                 <?=
                     $this->Html->image("portfolio/predial.jpg", [
                         "alt" => "Brownies",
-                        'url' => ['controller' => 'areas', 'action' => 'cleaning_and_predial_and_green_area_conservation']
+                        'url' => ['controller' => 'areas', 'action' => 'cleaning_predial_green_conservation']
                     ]);
                 ?>
                 <h3>Limpeza e conservação predial e de áreas verdes</h3>

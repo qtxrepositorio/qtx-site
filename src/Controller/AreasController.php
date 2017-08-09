@@ -25,7 +25,7 @@ class AreasController extends AppController
     public function wasteTransportation(){}
     public function wasteManagement(){}
     public function wastewaterTreatment(){}
-    public function cleaningAndPredialAndGreenAreaConservation(){}
+    public function cleaningPredialGreenConservation(){}
     public function industrialCleaning(){}
 
 }
