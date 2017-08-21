@@ -3466,12 +3466,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #599458;
+  border-color: #eeeeee #eeeeee #4c8b4b;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #FFFFFF;
   background-color: #4c8b4b;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;

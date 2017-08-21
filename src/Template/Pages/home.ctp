@@ -22,7 +22,7 @@
                         <i class="fa-flag"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3><?php echo $this->Html->link(__('Diretrizes de condulta'), array('controller'=> 'Who','action' => 'guidelines_and_conduct')); ?></h3>
+                        <h3><?php echo $this->Html->link(__('Diretrizes de conduta'), array('controller'=> 'Who','action' => 'guidelines_and_conduct')); ?></h3>
                         <p>
                             Em todos os seus relacionamentos com pessoas ou entidades públicas/privadas
                             a Qualitex exercita o seu programa de integridade e anticorrupção... <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'Who','action' => 'guidelines_and_conduct')); ?>
@@ -81,8 +81,13 @@
                 'url' => ['controller' => 'areas', 'action' => 'waste_transportation']
             ]);
             ?>
-            <h3>Transporte de Resíduos</h3>
-            <p>A QUALITEX atua no mercado com essa atividade oferecendo o serviço completo englobando todos os itens logísticos no modal rodoviário através de...</p>
+            <h3><?php echo $this->Html->link(__('Transporte de Resíduos'), array('controller'=> 'areas','action' => 'waste_transportation')); ?></h3>
+            <p>
+                Atuamos no mercado com essa atividade oferecendo o
+                serviço completo englobando todos os itens logísticos no modal
+                rodoviário através de...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'waste_transportation')); ?>
+            </p>
         </div>
         <div class=" Portfolio-box printdesign">
             <?=
@@ -91,9 +96,10 @@
                 'url' => ['controller' => 'areas', 'action' => 'waste_management']
             ]);
             ?>
-            <h3>Gerenciamento de resíduos</h3>
+            <h3><?php echo $this->Html->link(__('Gerenciamento de resíduos'), array('controller'=> 'areas','action' => 'waste_management')); ?></h3>
             <p>
                 Remoção de resíduos e borras em equipamentos, recolhimento de resíduos...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'waste_management')); ?>
             </p>
         </div>
         <div class=" Portfolio-box printdesign" >
@@ -103,8 +109,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'wastewater_treatment']
             ]);
             ?>
-            <h3>Tratamento de Efluentes</h3>
-            <p>A QUALITEX possui uma Estação de tratamento de efluentes sanitários e industriais compatíveis para tratamento pelo sistema biotecnológico instalado...</p>
+            <h3><?php echo $this->Html->link(__('Tratamento de Efluentes'), array('controller'=> 'areas','action' => 'wastewater_treatment')); ?></h3>
+            <p>
+                Possuimos uma Estação de tratamento de efluentes sanitários
+                e industriais compatíveis para tratamento pelo sistema biotecnológico instalado...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'waste_transportation')); ?>
+            </p>
         </div>
 
 
@@ -115,8 +125,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'water_and_effluent']
             ]);
             ?>
-            <h3>Águas e Efluentes</h3>
-            <p>Amostragens técnicas e laboratoriais para verificação de conformidade em relação aos requisitos legais...</p>
+            <h3><?php echo $this->Html->link(__('Águas e Efluentes'), array('controller'=> 'areas','action' => 'water_and_effluent')); ?></h3>
+            <p>
+                Amostragens técnicas e laboratoriais para verificação de conformidade em
+                relação aos requisitos legais...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'water_and_effluent')); ?>
+            </p>
         </div>
 
         <div class=" Portfolio-box branding">
@@ -126,8 +140,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'air_quality_and_gas_emissions']
             ]);
             ?>
-            <h3>Qualidade do Ar e Emissões gasosas</h3>
-            <p>A QUALITEX está engajada apoiando o Plano Nacional de Qualidade do Ar. O monitoramento da qualidade do ar e das fontes de emissão de...</p>
+            <h3><?php echo $this->Html->link(__('Qualidade do Ar e Emissões gasosas'), array('controller'=> 'areas','action' => 'air_quality_and_gas_emissions')); ?></h3>
+            <p>
+                A QUALITEX está engajada apoiando o Plano Nacional de Qualidade do Ar.
+                O monitoramento da qualidade do ar e das fontes de emissão de...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'air_quality_and_gas_emissions')); ?>
+            </p>
         </div>
 
         <div class=" Portfolio-box branding">
@@ -137,8 +155,13 @@
                 'url' => ['controller' => 'areas', 'action' => 'food_and_swabs']
             ]);
             ?>
-            <h3>Alimentos e Swabs</h3>
-            <p>O Laboratório Qualitex atua no monitoramento analítico dos alimentos, utensílios e manipuladores em relação a parâmetros de controle biológico e na avaliação...</p>
+            <h3><?php echo $this->Html->link(__('Alimentos e Swabs'), array('controller'=> 'areas','action' => 'food_and_swabs')); ?></h3>
+            <p>
+                O Laboratório Qualitex atua no monitoramento analítico dos alimentos,
+                utensílios e manipuladores em relação a parâmetros de controle biológico
+                e na...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'food_and_swabs')); ?>
+            </p>
         </div>
 
         <div class=" Portfolio-box branding">
@@ -148,8 +171,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'automotive_fuels']
             ]);
             ?>
-            <h3>Combustíveis Automotivos</h3>
-            <p>Amostragens técnicas e laboratoriais para verificação de conformidade aos critérios de qualidade regulamentados pela ANP...</p>
+            <h3><?php echo $this->Html->link(__('Combustíveis Automotivos'), array('controller'=> 'areas','action' => 'automotive_fuels')); ?></h3>
+            <p>
+                Amostragens técnicas e laboratoriais para
+                verificação de conformidade aos critérios de qualidade regulamentados pela ANP...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'automotive_fuels')); ?>
+            </p>
         </div>
 
         <div class=" Portfolio-box branding">
@@ -159,8 +186,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'occupational_health']
             ]);
             ?>
-            <h3>Saúde Ocupacional</h3>
-            <p> Através de medições e monitoramentos analíticos a QUALITEX tem apoiado o Plano Nacional de Segurança e Saúde no Trabalho com os serviços...</p>
+            <h3><?php echo $this->Html->link(__('Saúde Ocupacional'), array('controller'=> 'areas','action' => 'occupational_health')); ?></h3>
+            <p>
+                Através de medições e monitoramentos analíticos a QUALITEX tem apoiado o
+                Plano Nacional de Segurança e Saúde no Trabalho com...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'occupational_health')); ?>
+            </p>
         </div>
 
         <div class=" Portfolio-box branding">
@@ -170,8 +201,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'solid_waste']
             ]);
             ?>
-            <h3>Resíduos Sólidos</h3>
-            <p>A QUALITEX está engajada apoiando a Política Nacional de Resíduos Sólidos resultante de atividades humanas...</p>
+            <h3><?php echo $this->Html->link(__('Resíduos Sólidos'), array('controller'=> 'areas','action' => 'solid_waste')); ?></h3>
+            <p>
+                A QUALITEX está engajada apoiando a Política Nacional de
+                Resíduos Sólidos resultante de atividades humanas...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'solid_waste')); ?>
+            </p>
         </div>
         <div class=" Portfolio-box printdesign">
             <?=
@@ -180,8 +215,12 @@
                 'url' => ['controller' => 'areas', 'action' => 'cleaning_predial_green_conservation']
             ]);
             ?>
-            <h3>Limpeza e conservação predial e de áreas verdes</h3>
-            <p>Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...</p>
+            <h3><?php echo $this->Html->link(__('Limpeza e conservação predial e de áreas verdes'), array('controller'=> 'areas','action' => 'cleaning_predial_green_conservation')); ?></h3>
+            <p>
+                Limpeza e conservação de prédios industriais, administrativos,
+                cinturão verde, jardins, etc...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'cleaning_predial_green_conservation')); ?>
+            </p>
         </div>
 
         <div class=" Portfolio-box printdesign">
@@ -191,9 +230,14 @@
                 'url' => ['controller' => 'areas', 'action' => 'industrial_cleaning']
             ]);
             ?>
-            <h3>Limpeza industrial</h3>
-            <p>Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...</p>
+            <h3><?php echo $this->Html->link(__('Limpeza industrial'), array('controller'=> 'areas','action' => 'industrial_cleaning')); ?></h3>
+            <p>
+                Limpeza e conservação de prédios industriais,
+                administrativos, cinturão verde, jardins, etc...
+                <?php echo $this->Html->link(__('Ler mais'), array('controller'=> 'areas','action' => 'industrial_cleaning')); ?>
+            </p>
         </div>
+
     </div>
 </section><!--main-section-end-->
 
