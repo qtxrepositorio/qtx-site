@@ -95,25 +95,25 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     <li class="small-logo">
                         <?php
                         echo $this->Html->image("logo3.png",
-                                array('url' =>
-                                array('controller' => 'Pages', 'action' => 'home')
-                            )
-                        );
+                        array('url' =>
+                        array('controller' => 'Pages', 'action' => 'home')
+                    )
+                );
                 ?>
-            </li>
-            <li>
-                <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home', '#' => 'contact')); ?>
-            </li>
-            <li>
-                <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
-            </li>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Contato'), array('controller'=> 'Pages','action' => 'home', '#' => 'contact')); ?>
+                    </li>
+                    <li>
+                        <?php echo $this->Html->link(__('Solicitar proposta'), array('controller'=> 'proposals','action' => 'request_proposal')); ?>
+                    </li>
 
 
-        </ul>
-        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-    </div>
-</nav>
-<?php } ?>
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
+    <?php } ?>
 
 <?= $this->Flash->render() ?>
 <div>
@@ -131,21 +131,16 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                 <div align="center" class="col-md-2"></div>
 
                 <div class="col-md-8">
-
                     <br>
                     <br>
-
                     <ul class="social-link">
                         <li target="_blank" class="facebook"><a href="https://www.facebook.com/QUALITEX/"><i class="fa-facebook"></i></a></li>
                         <li target="_blank" class="instagram"><a href="https://www.instagram.com/qualitex_qtx/"><i class="fa-instagram"></i></a></li>
                         <li target="_blank" class="gplus"><a href="https://plus.google.com/u/0/101749383972960088051"><i class="fa-google-plus"></i></a></li>
                     </ul>
-
                     <br><br>
-
                     <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
                     <span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span>
-
                 </div>
 
                 <div align="center" class="col-md-2"></div>
@@ -179,9 +174,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     </div>
 
                 </div>
-
             </div>
-
         </div>
 
     </footer>
