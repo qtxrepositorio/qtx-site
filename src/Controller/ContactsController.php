@@ -27,7 +27,7 @@ class ContactsController extends AppController
     			[
     				$this->request->data,
     				$this->request->data['email'],
-    				'desenvolvimento@qualitex.com.br' // sac
+    				'sac@qualitex.com.br' // sac
     			]);
 			return $this->redirect(
 	            ['controller' => 'Answer', 'action' => 'answer_sac']
@@ -43,7 +43,7 @@ class ContactsController extends AppController
     			[
     				$this->request->data,
     				$this->request->data['email'],
-    				'desenvolvimento@qualitex.com.br' //ouvidoria
+    				'ouvidoria@qualitex.com.br' //ouvidoria
     			]);
 			return $this->redirect(
 	            ['controller' => 'Answer', 'action' => 'answer_ombudsman']
@@ -59,7 +59,7 @@ class ContactsController extends AppController
                 [
                     $this->request->data,
                     $this->request->data['email'],
-                    'desenvolvimento@qualitex.com.br'
+                    'setorrh@qualitex.com.br'
                 ]);
 
 			return $this->redirect(
