@@ -140,7 +140,7 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                     </ul>
                     <br><br>
                     <div class="footer-logo"><a href="#"><?= $this->Html->image('logo.png'); ?></a></div>
-                    <span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span>
+                  <!--<span class="copyright">&copy; Knight Theme. Todos os direitos reservados.</span> -->
                 </div>
 
                 <div align="center" class="col-md-2"></div>
@@ -154,11 +154,11 @@ $cakeDescription = 'Qualitex Engenharia e Serviços';
                 </div>
                 <div class="contact-info-box email clearfix">
                     <h3><i class="fa-pencil"></i>email:</h3>
-                    <span>QUALITEX@QUALITEX.COM.BR</span>
+                    <span>qualitex@qualitex.com.br</span>
                 </div>
                 <div class="contact-info-box hours clearfix">
                     <h3><i class="fa-clock-o"></i>Horários:</h3>
-                    <span><strong>SEGUNDA - SEXTA:</strong> 07:30 am - 17:00 pm<br><strong></span>
+                    <span>SEGUNDA - SEXTA das 07:30 às 17:00<br><strong></span>
                 </div>
                 <div class="contact-info-box address clearfix">
                     <h3><i class=" icon-map-marker"></i>Endereço:</h3>
