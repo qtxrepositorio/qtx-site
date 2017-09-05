@@ -22,7 +22,7 @@ class ProposalsController extends AppController
     			[
     				$this->request->data,
     				$this->request->data['email'],
-    				'desenvolvimento@qualitex.com.br'
+    				'setorcomercial@qualitex.com.br'
     			]);
 
             return $this->redirect(
