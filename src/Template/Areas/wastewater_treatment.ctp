@@ -114,7 +114,7 @@
                     </div>
                     <div class="service-content">
                         <h4>
-                            <?php echo $this->Html->link(__('Limpeza e preservação predial e de áreas verdes'), array('action' => 'cleaning-and-predial-and-green-area-conservation')); ?>
+                            <?php echo $this->Html->link(__('Limpeza e preservação predial e de áreas verdes'), array('action' => 'cleaning_predial_green_conservation')); ?>
                         </h4>
                         <p>
                             Limpeza e conservação de prédios industriais, administrativos, cinturão verde, jardins, etc...
