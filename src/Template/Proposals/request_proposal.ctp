@@ -18,6 +18,7 @@
                 <div class="row">
 
                     <div class="col-md-6">
+<font color="#4c8b4b"><h4>Sobre o cliente</h4></font>
                         <?php
 
                         echo $this->Form->input('type_client', ['required', 'class'=>'form-control input-text', 'label' => 'Tipo de cliente: *',
@@ -29,6 +30,7 @@
 
                     ?>
                 </div>
+                <h4><br></h4>
                 <div class="col-md-6">
                     <?php
 
@@ -134,7 +136,7 @@
     </div>
 
     <div class="col-md-6">
-
+<font color="#4c8b4b"><h4>Sobre o serviço</h4></font>
         <?php
 
         echo $this->Form->input('do', ['required', 'class'=>'form-control input-text','placeholder'=>'Nome do serviço.', 'label' => 'O que fazer? *', 'type' => 'text']);
