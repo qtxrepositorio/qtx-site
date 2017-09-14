@@ -11,8 +11,8 @@
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#lA" data-toggle="tab">Relação com os Componentes</a></li>
                             <li><a href="#lB" data-toggle="tab"> Relação com os Clientes</a></li>
-                            <li><a href="#lC" data-toggle="tab">Relação com os Fornecedores</a></li>
-                            <li><a href="#lD" data-toggle="tab">Relação com a Sociedade</a></li>
+                            <li><a href="#lC" data-toggle="tab">Relação com a Sociedade</a></li>
+                            <li><a href="#lD" data-toggle="tab">Relação com os Fornecedores</a></li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane active" id="lA">

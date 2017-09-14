@@ -83,20 +83,20 @@
 
             <ul>
                 <li>
-                    <a href="../webroot/documentos_institucionais/CNPJ e Contrato Social/CNPJ - Matriz - AL_23.02.15.pdf" download><i class="fa fa-download"></i>  CNPJ Qualitex Matriz Alagoas</a>
-                </li>
-                <li>
-                    <a href="../webroot/documentos_institucionais/CNPJ e Contrato Social/CNPJ-Filial-PE.pdf" download><i class="fa fa-download"></i> CNPJ Qualitex Filial Pernambuco</a>
-                </li>
-                <li>
-                    <a href="../webroot/documentos_institucionais/CNPJ e Contrato Social/CNPJ-Filial-RN.pdf" download><i class="fa fa-download"></i> CNPJ Qualitex Filial Rio Grando do Norte</a>
-                </li>
-                <li>
-                    <a href="../webroot/documentos_institucionais/1-FICHA_RESUMO_EMPRESARIAL_QUALITEX-Abr2016.pdf" download><i class="fa fa-download"></i> Dados Cadastrais</a>
-                </li>
-                <li>
-                    <a href="../webroot/documentos_institucionais/Dados Bancarios.doc" download><i class="fa fa-download"></i> Dados Bancários</a>
-                </li>
+                    <a target="_blank" href="../documentos_institucionais/CNPJ e Contrato Social/CNPJ - Matriz AL_consulta-20.01.2017.pdf"><i class="fa fa-download"></i>  CNPJ Qualitex Matriz Alagoas</a>
+                        </li>
+                        <li>
+                    <a target="_blank" href="../documentos_institucionais/CNPJ e Contrato Social/CNPJ - Filial PE_consulta-20.01.2017.pdf"><i class="fa fa-download"></i> CNPJ Qualitex Filial Pernambuco</a>
+                        </li>
+                        <li>
+                    <a target="_blank" href="../documentos_institucionais/CNPJ e Contrato Social/CNPJ - Filial RN_consulta-20.01.2017.pdf"><i class="fa fa-download"></i> CNPJ Qualitex Filial Rio Grando do Norte</a>
+                        </li>
+                        <li>
+                    <a target="_blank" href="../documentos_institucionais/1-FICHA_RESUMO_EMPRESARIAL_QUALITEX-06 03 2017.pdf"><i class="fa fa-download"></i> Dados Cadastrais</a>
+                        </li>
+                        <li>
+                    <a target="_blank" href="../documentos_institucionais/Dados Bancarios.pdf"><i class="fa fa-download"></i> Dados Bancários</a>
+                        </li>
             </ul>
         </div>
 

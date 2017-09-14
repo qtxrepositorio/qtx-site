@@ -45,10 +45,7 @@
             <p>
                 <b>Escopo Certificado:</b>
 
-                Análises Físico-Químicas, Microbiológicas, Caracterização De Resíduo, Monitoramento
-                Ambiental de Emissões Gasosas, Qualidade do Ar Ambiental e Climatizado, Medições para
-                Suporte em Higiene Ocupacional e Transporte de Produtos e Resíduos Perigosos e Não
-                Perigosos.
+                ANÁLISES FÍSICO-QUÍMICAS E MICROBIOLÓGICAS, CARACTERIZAÇÃO DE RESÍDUOS, MONITORAMENTOS AMBIENTAIS DE EMISSÕES GASOSAS, QUALIDADE DO AR AMBIENTAL E CLIMATIZADO, MEDIÇÕES PARA SUPORTE EM HIGIENE OCUPACIONAL, TRANSPORTE DE PRODUTOS E RESÍDUOS PERIGOSOS E NÃO PERIGOSOS.
 
             </p>
             <br>
@@ -86,10 +83,7 @@
             <p>
                 <b>Escopo Certificado:</b>
 
-                    Análises Físico-Químicas, Microbiológicas, Caracterização De Resíduo,
-                    Monitoramento Ambiental de Emissões Gasosas, Qualidade do Ar Ambiental e
-                    Climatizado, Medições para Suporte em Higiene Ocupacional e Transporte de
-                    Produtos e Resíduos Perigosos e Não Perigosos.
+                    ANÁLISES FÍSICO-QUÍMICAS E MICROBIOLÓGICAS, CARACTERIZAÇÃO DE RESÍDUOS, MONITORAMENTOS AMBIENTAIS DE EMISSÕES GASOSAS, QUALIDADE DO AR AMBIENTAL E CLIMATIZADO, MEDIÇÕES PARA SUPORTE EM HIGIENE OCUPACIONAL, TRANSPORTE DE PRODUTOS E RESÍDUOS PERIGOSOS E NÃO PERIGOSOS.
 
             </p>
         </p>
@@ -128,16 +122,16 @@
 
             <ul>
                 <li>
-                    <a href="../webroot/documentos_institucionais/Certificações da Qualidade/Certificado -ISO-9001-2008.pdf" download><i class="fa fa-download"></i> Certificado ISO 9001</a>
+                    <a target="_blank" href="../webroot/documentos_institucionais/Certificações da Qualidade/Certificado -ISO-9001-2008.pdf"><i class="fa fa-download"></i> Certificado ISO 9001</a>
                 </li>
                 <li>
-                    <a href="../webroot/documentos_institucionais/Certificações da Qualidade/Certificado-ISO-14001-2004.pdf" download><i class="fa fa-download"></i> Certificado ISO 14001</a>
+                    <a target="_blank" href="../webroot/documentos_institucionais/Certificações da Qualidade/Certificado-ISO-14001-2004.pdf"><i class="fa fa-download"></i> Certificado ISO 14001</a>
                 </li>
                 <li>
-                    <a href="../webroot/documentos_institucionais/Certificações da Qualidade/Certificado-INMETRO.pdf" download><i class="fa fa-download"></i> Certificado INMETRO - ISO/IEC 17025</a>
+                    <a target="_blank" href="../webroot/documentos_institucionais/Certificações da Qualidade/Certificado-INMETRO.pdf"><i class="fa fa-download"></i> Certificado INMETRO - ISO/IEC 17025</a>
                 </li>
                 <li>
-                    <a href="../webroot/documentos_institucionais/Certificações da Qualidade/Escopo-CRL0236.pdf" download><i class="fa fa-download"></i> Escopo de Acreditação - ISO/IEC 17025 </a>
+                    <a target="_blank" href="../webroot/documentos_institucionais/Certificações da Qualidade/Escopo-CRL0236.pdf"><i class="fa fa-download"></i> Escopo de Acreditação - ISO/IEC 17025 </a>
                 </li>
             </ul>
         </div>
